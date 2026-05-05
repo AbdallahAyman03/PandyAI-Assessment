@@ -1,0 +1,70 @@
+{
+  "javascript": ["js", "ecmascript"],
+  "typescript": ["ts"],
+  "node.js": ["node", "nodejs"],
+  
+  "react": ["react.js", "reactjs"],
+  "vue": ["vue.js", "vuejs"],
+  "angular": ["angular.js", "angularjs"],
+  "next.js": ["next", "nextjs"],
+  "react native": ["react-native"],
+  
+  "css": ["css3", "cascading style sheets"],
+  "scss": ["sass"],
+  "tailwind": ["tailwind css", "tailwindcss"],
+  "styled components": ["styled-components"],
+  "css modules": ["css-modules"],
+  
+  "redux toolkit": ["rtk", "redux"],
+  "react query": ["tanstack query", "react-query"],
+  "graphql": ["gql"],
+  "apollo": ["apollo client"],
+  "axios": [],
+
+  "testing library": ["react testing library", "rtl", "@testing-library/react"],
+  "jest": [],
+  "vitest": [],
+  "cypress": [],
+  "jasmine": [],
+  "msw": ["mock service worker"],
+  "visual regression testing": ["vrt"],
+
+  "vite": ["vitejs"],
+  "webpack": [],
+  "git": [],
+  "monorepos": ["monorepo"],
+
+  "performance": ["web performance", "core web vitals"],
+  "lighthouse": [],
+  "code splitting": ["code-splitting"],
+
+  "accessibility": ["a11y"],
+  "aria": ["wai-aria"],
+  "keyboard ux": ["keyboard navigation"],
+  "internationalization": ["i18n"],
+
+  "storybook": [],
+  "design tokens": ["design-tokens"],
+  "figma": [],
+
+  "react router": ["react-router", "react router dom", "react-router-dom"],
+  "react hook form": ["rhf", "react-hook-form"],
+  "zod": [],
+  "forms": ["form validation"],
+  "tanstack table": ["react table", "react-table"],
+  "url state": ["url-synced state", "url routing"],
+  
+  "framer motion": ["framer", "framer-motion"],
+  "animations": ["motion"],
+  "responsive design": ["responsive layouts"],
+  "maps": ["map views"],
+
+  "data visualization": ["data viz"],
+  "d3": ["d3.js", "d3js"],
+  "recharts": [],
+
+  "express": ["express.js", "expressjs"],
+
+  "error handling": ["error boundaries"],
+  "secure ui": ["security", "sanitization"]
+} 

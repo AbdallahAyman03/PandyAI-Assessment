@@ -1,0 +1,767 @@
+{
+  "jobId": "j-001",
+  "topK": 30,
+  "results": [
+    {
+      "candidateId": "c-019",
+      "candidateName": "Mostafa Rashed",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Upskill Opportunity (DESIGN TOKENS): Extract hardcoded CSS hex values and spacing units into a centralized JSON design token system.",
+          "Upskill Opportunity (VITEST): Write a suite of unit and integration tests for existing components to establish test-driven development habits."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-010",
+      "candidateName": "Ahmed Saad",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Upskill Opportunity (DESIGN TOKENS): Extract hardcoded CSS hex values and spacing units into a centralized JSON design token system.",
+          "Upskill Opportunity (VITEST): Write a suite of unit and integration tests for existing components to establish test-driven development habits."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-015",
+      "candidateName": "Reem Hossam",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Upskill Opportunity (DESIGN TOKENS): Extract hardcoded CSS hex values and spacing units into a centralized JSON design token system.",
+          "Upskill Opportunity (VITEST): Write a suite of unit and integration tests for existing components to establish test-driven development habits."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-025",
+      "candidateName": "Nada Mahmoud",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 3.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "accessibility",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Upskill Opportunity (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
+          "Upskill Opportunity (DESIGN TOKENS): Extract hardcoded CSS hex values and spacing units into a centralized JSON design token system."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-018",
+      "candidateName": "Heba Salah",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like accessibility, react query."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-001",
+      "candidateName": "Lina Hassan",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like storybook, design tokens, accessibility."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "vitest",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-021",
+      "candidateName": "Hany Gamal",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 6.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like react query."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "vitest",
+            "accessibility"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-016",
+      "candidateName": "Adham Ehab",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "accessibility",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-027",
+      "candidateName": "Rawan Tamer",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like accessibility."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "vitest",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-020",
+      "candidateName": "Aya Khaled",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 3.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like accessibility."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "vitest",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-026",
+      "candidateName": "Hossam Yasser",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 3.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like react query."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "vitest",
+            "accessibility"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-011",
+      "candidateName": "Mai Sherif",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 3.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like accessibility."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "vitest",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-028",
+      "candidateName": "Khaled Nassar",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-024",
+      "candidateName": "Eslam Samir",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like accessibility."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-012",
+      "candidateName": "Tarek Hamdi",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "accessibility",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-008",
+      "candidateName": "Hassan Magdy",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-005",
+      "candidateName": "Mariam Fathy",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "react router"
+          ],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-022",
+      "candidateName": "Nada Younis",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, react router.",
+          "Provides immediate bonus value with nice-to-have skills like vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "accessibility",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-029",
+      "candidateName": "Yara Mahmoud",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, react router."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript"
+          ],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-017",
+      "candidateName": "Farah Mounir",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including css, react, react router."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript"
+          ],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like storybook, design tokens, accessibility."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "css",
+            "react router"
+          ],
+          "niceToHave": [
+            "vitest",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (CSS): Build a responsive, mobile-first layout utilizing modern CSS Grid and Flexbox techniques.",
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like accessibility, react query."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "css",
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (CSS): Build a responsive, mobile-first layout utilizing modern CSS Grid and Flexbox techniques.",
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-007",
+      "candidateName": "Nour Adel",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like storybook, design tokens, accessibility."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "css",
+            "react router"
+          ],
+          "niceToHave": [
+            "vitest",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (CSS): Build a responsive, mobile-first layout utilizing modern CSS Grid and Flexbox techniques.",
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-014",
+      "candidateName": "Mohamed Hany",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like storybook, accessibility."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "css",
+            "react router"
+          ],
+          "niceToHave": [
+            "react query",
+            "design tokens",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (CSS): Build a responsive, mobile-first layout utilizing modern CSS Grid and Flexbox techniques.",
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-004",
+      "candidateName": "Youssef Abdelrahman",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 6.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like storybook."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "css",
+            "react router"
+          ],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (CSS): Build a responsive, mobile-first layout utilizing modern CSS Grid and Flexbox techniques.",
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-006",
+      "candidateName": "Kareem Mostafa",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "css",
+            "react router"
+          ],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (CSS): Build a responsive, mobile-first layout utilizing modern CSS Grid and Flexbox techniques.",
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-013",
+      "candidateName": "Salma Emad",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 3.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including css, react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "react router"
+          ],
+          "niceToHave": [
+            "design tokens",
+            "vitest",
+            "accessibility",
+            "react query",
+            "storybook"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-009",
+      "candidateName": "Dina Ashraf",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including css, react.",
+          "Provides immediate bonus value with nice-to-have skills like vitest, accessibility."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (REACT ROUTER): Build a multi-page Single Page Application (SPA) utilizing nested routes, layouts, and route loaders.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-002",
+      "candidateName": "Omar El-Sayed",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react.",
+          "Provides immediate bonus value with nice-to-have skills like vitest, react query."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "css",
+            "typescript",
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "accessibility"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (CSS): Build a responsive, mobile-first layout utilizing modern CSS Grid and Flexbox techniques.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-003",
+      "candidateName": "Sara Nabil",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 3.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react.",
+          "Provides immediate bonus value with nice-to-have skills like accessibility."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "css",
+            "typescript",
+            "react router"
+          ],
+          "niceToHave": [
+            "storybook",
+            "design tokens",
+            "vitest",
+            "react query"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (CSS): Build a responsive, mobile-first layout utilizing modern CSS Grid and Flexbox techniques.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types."
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "approach": "baseline-v1-insights",
+    "generatedAt": "2026-05-05T22:06:03.726073Z"
+  }
+}

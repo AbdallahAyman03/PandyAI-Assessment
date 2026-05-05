@@ -1,0 +1,1208 @@
+[
+  {
+    "id": "c-001",
+    "fullName": "Lina Hassan",
+    "headline": "Frontend Engineer | React, TypeScript | Design Systems",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 4,
+    "skills": ["React", "TypeScript", "CSS", "Storybook", "Accessibility", "Jest"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-02-03",
+    "status": "Open to work",
+    "score": 86,
+    "summary": "Builds scalable UI component libraries and improves UX consistency across products.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/lina",
+      "github": "https://github.com/example-lina",
+      "linkedin": "https://linkedin.com/in/example-lina"
+    },
+    "experience": [
+      {
+        "company": "NileSoft",
+        "title": "Frontend Engineer",
+        "start": "2023-01",
+        "end": "Present",
+        "highlights": [
+          "Led adoption of design tokens and reusable components across 3 teams.",
+          "Improved Lighthouse performance from 62 to 92 on core pages."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Component Library",
+        "description": "Built a Storybook-driven library with theming and accessibility checks.",
+        "tech": ["React", "TypeScript", "Storybook"]
+      }
+    ],
+    "notes": [
+      { "date": "2026-01-25", "text": "Strong UI craftsmanship; great attention to detail." }
+    ]
+  },
+  {
+    "id": "c-002",
+    "fullName": "Omar El-Sayed",
+    "headline": "Frontend Engineer | React Query, Redux Toolkit | Performance",
+    "location": "Alexandria, Egypt",
+    "yearsOfExperience": 5,
+    "skills": ["React", "Redux Toolkit", "React Query", "Vite", "Vitest", "Sass"],
+    "availability": "Immediate",
+    "updatedAt": "2026-02-05",
+    "status": "Open to work",
+    "score": 90,
+    "summary": "Focuses on app performance, caching strategies, and maintainable state patterns.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Science",
+    "links": {
+      "portfolio": "https://example.com/omar",
+      "github": "https://github.com/example-omar",
+      "linkedin": "https://linkedin.com/in/example-omar"
+    },
+    "experience": [
+      {
+        "company": "DeltaApps",
+        "title": "Frontend Engineer",
+        "start": "2021-06",
+        "end": "Present",
+        "highlights": [
+          "Implemented React Query caching; reduced repeated network calls by ~40%.",
+          "Built reusable table + filtering system used in 6 dashboards."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Analytics Dashboard",
+        "description": "Designed a filter-heavy dashboard with URL-synced state.",
+        "tech": ["React", "Redux Toolkit", "React Query"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-01", "text": "Very strong on state management and data fetching." }]
+  },
+  {
+    "id": "c-003",
+    "fullName": "Sara Nabil",
+    "headline": "Frontend Developer | Next.js, React | UX-first",
+    "location": "Giza, Egypt",
+    "yearsOfExperience": 3,
+    "skills": ["React", "Next.js", "Tailwind", "Figma", "Accessibility", "Cypress"],
+    "availability": "1 month",
+    "updatedAt": "2026-01-29",
+    "status": "Interviewing",
+    "score": 82,
+    "summary": "UX-first developer with strong layout instincts and clean component structure.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Information Systems",
+    "links": {
+      "portfolio": "https://example.com/sara",
+      "github": "https://github.com/example-sara",
+      "linkedin": "https://linkedin.com/in/example-sara"
+    },
+    "experience": [
+      {
+        "company": "Cedar Studio",
+        "title": "Frontend Developer",
+        "start": "2022-03",
+        "end": "Present",
+        "highlights": [
+          "Delivered responsive landing + directory pages for multiple clients.",
+          "Introduced accessibility checklist and improved keyboard navigation."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Recruitment Portal UI",
+        "description": "Built candidate directory and profile pages with clean typography.",
+        "tech": ["React", "Tailwind"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-30", "text": "Great eye for design; strong communication." }]
+  },
+  {
+    "id": "c-004",
+    "fullName": "Youssef Abdelrahman",
+    "headline": "Frontend Engineer | Vue → React | UI Architecture",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 6,
+    "skills": ["React", "Vue", "TypeScript", "CSS Modules", "Testing Library", "Webpack"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-02-02",
+    "status": "Open to work",
+    "score": 88,
+    "summary": "Experienced in large codebases, migrations, and reusable component patterns.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Software Engineering",
+    "links": {
+      "portfolio": "https://example.com/youssef",
+      "github": "https://github.com/example-youssef",
+      "linkedin": "https://linkedin.com/in/example-youssef"
+    },
+    "experience": [
+      {
+        "company": "NorthBridge",
+        "title": "Senior Frontend Engineer",
+        "start": "2020-02",
+        "end": "Present",
+        "highlights": [
+          "Led Vue-to-React migration across 20+ screens.",
+          "Standardized component APIs and reduced duplicate UI code."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Design System Migration",
+        "description": "Rebuilt components with unified tokens and documentation.",
+        "tech": ["React", "TypeScript", "Storybook"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-02", "text": "Strong architecture skills; good leadership potential." }]
+  },
+  {
+    "id": "c-005",
+    "fullName": "Mariam Fathy",
+    "headline": "Frontend Engineer | React, D3 | Data Visualization",
+    "location": "Mansoura, Egypt",
+    "yearsOfExperience": 4,
+    "skills": ["React", "TypeScript", "D3", "Recharts", "CSS", "React Hook Form"],
+    "availability": "Immediate",
+    "updatedAt": "2026-01-27",
+    "status": "Open to work",
+    "score": 84,
+    "summary": "Builds dashboards and data-heavy UIs with a focus on clarity and interaction.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/mariam",
+      "github": "https://github.com/example-mariam",
+      "linkedin": "https://linkedin.com/in/example-mariam"
+    },
+    "experience": [
+      {
+        "company": "VizCraft",
+        "title": "Frontend Engineer",
+        "start": "2022-01",
+        "end": "Present",
+        "highlights": [
+          "Built interactive charts and filter panels for analytics tools.",
+          "Improved perceived performance with skeletons and progressive rendering."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Hiring Analytics",
+        "description": "Candidate funnel charts + segmentation filters with URL sync.",
+        "tech": ["React", "D3"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-28", "text": "Good for data-rich product surfaces." }]
+  },
+  {
+    "id": "c-006",
+    "fullName": "Kareem Mostafa",
+    "headline": "Frontend Developer | Angular + React | Enterprise UI",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 5,
+    "skills": ["React", "Angular", "TypeScript", "RxJS", "SCSS", "Jasmine"],
+    "availability": "1 month",
+    "updatedAt": "2026-02-04",
+    "status": "Open to work",
+    "score": 79,
+    "summary": "Enterprise UI background; comfortable with complex forms and validation.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Science",
+    "links": {
+      "portfolio": "https://example.com/kareem",
+      "github": "https://github.com/example-kareem",
+      "linkedin": "https://linkedin.com/in/example-kareem"
+    },
+    "experience": [
+      {
+        "company": "EnterpriseWorks",
+        "title": "Frontend Developer",
+        "start": "2021-09",
+        "end": "Present",
+        "highlights": [
+          "Built role-based dashboards and data tables with export features.",
+          "Implemented form validation patterns and error UX guidelines."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "ATS Admin Console",
+        "description": "Recruiter console with candidate management workflows.",
+        "tech": ["Angular", "TypeScript"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-04", "text": "Solid enterprise experience; UI could be more modern." }]
+  },
+  {
+    "id": "c-007",
+    "fullName": "Nour Adel",
+    "headline": "Frontend Engineer | React Native + Web | Design Tokens",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 4,
+    "skills": ["React", "React Native", "TypeScript", "Styled Components", "Accessibility", "Storybook"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-01-31",
+    "status": "Open to work",
+    "score": 83,
+    "summary": "Bridges web and mobile UI systems with consistent tokens and components.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/nour",
+      "github": "https://github.com/example-nour",
+      "linkedin": "https://linkedin.com/in/example-nour"
+    },
+    "experience": [
+      {
+        "company": "CrossUI Labs",
+        "title": "Frontend Engineer",
+        "start": "2022-06",
+        "end": "Present",
+        "highlights": [
+          "Unified token system across web and mobile.",
+          "Added accessibility improvements and focus management patterns."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Tokenized UI Kit",
+        "description": "Shared design tokens powering components and themes.",
+        "tech": ["React", "React Native", "Storybook"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-01", "text": "Strong on design systems; great component hygiene." }]
+  },
+  {
+    "id": "c-008",
+    "fullName": "Hassan Magdy",
+    "headline": "Frontend Engineer | React, Web Performance | Core Web Vitals",
+    "location": "Tanta, Egypt",
+    "yearsOfExperience": 5,
+    "skills": ["React", "TypeScript", "Vite", "Lighthouse", "Code Splitting", "CSS"],
+    "availability": "Immediate",
+    "updatedAt": "2026-01-26",
+    "status": "Open to work",
+    "score": 87,
+    "summary": "Performance-focused frontend engineer; strong on bundle size and rendering efficiency.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Science",
+    "links": {
+      "portfolio": "https://example.com/hassan",
+      "github": "https://github.com/example-hassan",
+      "linkedin": "https://linkedin.com/in/example-hassan"
+    },
+    "experience": [
+      {
+        "company": "FastWeb Co",
+        "title": "Frontend Engineer",
+        "start": "2021-03",
+        "end": "Present",
+        "highlights": [
+          "Reduced initial JS bundle by 35% via splitting and lazy loading.",
+          "Improved LCP and CLS through layout stabilization and image strategy."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Talent Marketplace",
+        "description": "Optimized directory pages for fast scrolling and interaction.",
+        "tech": ["React", "Vite"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-26", "text": "Excellent performance instincts; pragmatic decisions." }]
+  },
+  {
+    "id": "c-009",
+    "fullName": "Dina Ashraf",
+    "headline": "Frontend Developer | React | UI Craft & Accessibility",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 2,
+    "skills": ["React", "JavaScript", "CSS", "ARIA", "Figma", "Vitest"],
+    "availability": "Immediate",
+    "updatedAt": "2026-02-06",
+    "status": "Open to work",
+    "score": 75,
+    "summary": "Early-career developer with strong visual polish and accessibility curiosity.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Information Technology",
+    "links": {
+      "portfolio": "https://example.com/dina",
+      "github": "https://github.com/example-dina",
+      "linkedin": "https://linkedin.com/in/example-dina"
+    },
+    "experience": [
+      {
+        "company": "Studio K",
+        "title": "Junior Frontend Developer",
+        "start": "2024-01",
+        "end": "Present",
+        "highlights": [
+          "Implemented responsive UI pages with consistent styling.",
+          "Added keyboard navigation improvements for forms and menus."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Candidate Directory UI",
+        "description": "Search + filter UI with accessible inputs and focus states.",
+        "tech": ["React", "CSS"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-06", "text": "Good design instincts; needs stronger architecture patterns." }]
+  },
+  {
+    "id": "c-010",
+    "fullName": "Ahmed Saad",
+    "headline": "Frontend Engineer | React, Node | Full-stack leaning",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 4,
+    "skills": ["React", "TypeScript", "Node.js", "Express", "CSS", "React Router"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-01-28",
+    "status": "Open to work",
+    "score": 80,
+    "summary": "Frontend-first engineer comfortable with building light APIs and mock servers.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/ahmed",
+      "github": "https://github.com/example-ahmed",
+      "linkedin": "https://linkedin.com/in/example-ahmed"
+    },
+    "experience": [
+      {
+        "company": "BrightStack",
+        "title": "Frontend Engineer",
+        "start": "2022-02",
+        "end": "Present",
+        "highlights": [
+          "Built candidate profile flows and reusable UI components.",
+          "Created mock API server for local development and demos."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Mock API + UI",
+        "description": "Local dev server to simulate latency, errors, and pagination.",
+        "tech": ["Node.js", "Express", "React"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-28", "text": "Practical; good for hands-on tasks and quick delivery." }]
+  },
+
+  {
+    "id": "c-011",
+    "fullName": "Mai Sherif",
+    "headline": "Frontend Engineer | React | Forms & UX",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 3,
+    "skills": ["React", "TypeScript", "React Hook Form", "Zod", "CSS", "Accessibility"],
+    "availability": "1 month",
+    "updatedAt": "2026-01-30",
+    "status": "Open to work",
+    "score": 81,
+    "summary": "Specializes in form UX, validation, and accessible interaction patterns.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Science",
+    "links": {
+      "portfolio": "https://example.com/mai",
+      "github": "https://github.com/example-mai",
+      "linkedin": "https://linkedin.com/in/example-mai"
+    },
+    "experience": [
+      {
+        "company": "Formly",
+        "title": "Frontend Engineer",
+        "start": "2022-08",
+        "end": "Present",
+        "highlights": [
+          "Designed reusable input components with consistent validation UX.",
+          "Improved accessibility for form errors and helper text."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Recruiter Notes",
+        "description": "Notes editor with validation, autosave, and error handling.",
+        "tech": ["React", "React Hook Form", "Zod"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-02", "text": "Strong forms + UX; good attention to detail." }]
+  },
+  {
+    "id": "c-012",
+    "fullName": "Tarek Hamdi",
+    "headline": "Frontend Engineer | React | Component Patterns",
+    "location": "Alexandria, Egypt",
+    "yearsOfExperience": 4,
+    "skills": ["React", "TypeScript", "CSS", "Testing Library", "Vitest", "Git"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-01-24",
+    "status": "Open to work",
+    "score": 78,
+    "summary": "Clean component decomposition and consistent UI patterns across pages.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/tarek",
+      "github": "https://github.com/example-tarek",
+      "linkedin": "https://linkedin.com/in/example-tarek"
+    },
+    "experience": [
+      {
+        "company": "CoastTech",
+        "title": "Frontend Engineer",
+        "start": "2022-01",
+        "end": "Present",
+        "highlights": [
+          "Built shared UI primitives used in multiple projects.",
+          "Added unit tests for key components and critical flows."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Candidate Cards",
+        "description": "Reusable card system supporting multiple layouts and sizes.",
+        "tech": ["React", "TypeScript"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-25", "text": "Solid mid-level; reliable implementation style." }]
+  },
+  {
+    "id": "c-013",
+    "fullName": "Salma Emad",
+    "headline": "Frontend Developer | UI Engineer | CSS Specialist",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 3,
+    "skills": ["React", "JavaScript", "CSS", "Animations", "Figma", "Responsive Design"],
+    "availability": "Immediate",
+    "updatedAt": "2026-02-01",
+    "status": "Open to work",
+    "score": 77,
+    "summary": "Strong visual polish, responsive layouts, and tasteful animations.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Multimedia & Web",
+    "links": {
+      "portfolio": "https://example.com/salma",
+      "github": "https://github.com/example-salma",
+      "linkedin": "https://linkedin.com/in/example-salma"
+    },
+    "experience": [
+      {
+        "company": "PixelMint",
+        "title": "Frontend Developer",
+        "start": "2023-02",
+        "end": "Present",
+        "highlights": [
+          "Delivered responsive UIs with consistent spacing and typography.",
+          "Added motion guidelines and improved hover/focus states."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Talent Landing Page",
+        "description": "Hero + directory page with cohesive branding and interactions.",
+        "tech": ["React", "CSS"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-01", "text": "Great polish; ensure architecture stays clean as UI grows." }]
+  },
+  {
+    "id": "c-014",
+    "fullName": "Mohamed Hany",
+    "headline": "Frontend Engineer | React | Accessibility Advocate",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 5,
+    "skills": ["React", "TypeScript", "ARIA", "Keyboard UX", "Storybook", "Testing Library"],
+    "availability": "1 month",
+    "updatedAt": "2026-01-23",
+    "status": "Open to work",
+    "score": 85,
+    "summary": "Builds accessible, keyboard-friendly UIs and promotes semantic HTML.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Science",
+    "links": {
+      "portfolio": "https://example.com/mohamed",
+      "github": "https://github.com/example-mohamed",
+      "linkedin": "https://linkedin.com/in/example-mohamed"
+    },
+    "experience": [
+      {
+        "company": "InclusiveUI",
+        "title": "Frontend Engineer",
+        "start": "2021-10",
+        "end": "Present",
+        "highlights": [
+          "Implemented focus management patterns for modals and menus.",
+          "Created accessible component templates used across teams."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Accessible Profile Modal",
+        "description": "Modal with focus trap, ESC close, and ARIA labeling.",
+        "tech": ["React", "TypeScript"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-23", "text": "Excellent accessibility; strong candidate for product UI." }]
+  },
+  {
+    "id": "c-015",
+    "fullName": "Reem Hossam",
+    "headline": "Frontend Engineer | React, GraphQL | Data-driven UI",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 4,
+    "skills": ["React", "TypeScript", "GraphQL", "Apollo", "CSS", "React Router"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-02-02",
+    "status": "Open to work",
+    "score": 83,
+    "summary": "Comfortable with data modeling, GraphQL queries, and robust UI states.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/reem",
+      "github": "https://github.com/example-reem",
+      "linkedin": "https://linkedin.com/in/example-reem"
+    },
+    "experience": [
+      {
+        "company": "QueryWorks",
+        "title": "Frontend Engineer",
+        "start": "2022-05",
+        "end": "Present",
+        "highlights": [
+          "Built candidate directory with server-driven filtering.",
+          "Improved error handling UX with retry and fallback components."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Directory + Profile",
+        "description": "Directory page with query param state and detail page with related content.",
+        "tech": ["React", "GraphQL"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-02", "text": "Strong data handling; UI is clean and structured." }]
+  },
+
+  {
+    "id": "c-016",
+    "fullName": "Adham Ehab",
+    "headline": "Frontend Engineer | React | Testing & Quality",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 4,
+    "skills": ["React", "TypeScript", "Vitest", "Testing Library", "MSW", "CSS"],
+    "availability": "Immediate",
+    "updatedAt": "2026-02-07",
+    "status": "Open to work",
+    "score": 84,
+    "summary": "Quality-driven engineer; comfortable with mocking APIs and testing UI flows.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Science",
+    "links": {
+      "portfolio": "https://example.com/adham",
+      "github": "https://github.com/example-adham",
+      "linkedin": "https://linkedin.com/in/example-adham"
+    },
+    "experience": [
+      {
+        "company": "TestLab",
+        "title": "Frontend Engineer",
+        "start": "2022-04",
+        "end": "Present",
+        "highlights": [
+          "Introduced MSW for consistent API mocks across dev and tests.",
+          "Added regression tests for critical filtering and navigation flows."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Tested Candidate Explorer",
+        "description": "Search/filter/sort covered with unit + integration tests.",
+        "tech": ["React", "Vitest", "Testing Library"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-07", "text": "Strong testing mindset; clean code." }]
+  },
+  {
+    "id": "c-017",
+    "fullName": "Farah Mounir",
+    "headline": "Frontend Developer | React | Product UI",
+    "location": "Alexandria, Egypt",
+    "yearsOfExperience": 2,
+    "skills": ["React", "JavaScript", "Tailwind", "React Router", "CSS", "Figma"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-01-22",
+    "status": "Open to work",
+    "score": 73,
+    "summary": "Product-UI oriented, fast execution, improving architecture skills.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Information Systems",
+    "links": {
+      "portfolio": "https://example.com/farah",
+      "github": "https://github.com/example-farah",
+      "linkedin": "https://linkedin.com/in/example-farah"
+    },
+    "experience": [
+      {
+        "company": "Harbor Studio",
+        "title": "Frontend Developer",
+        "start": "2024-02",
+        "end": "Present",
+        "highlights": [
+          "Shipped directory UIs with filters and responsive layouts.",
+          "Improved visual consistency using small reusable components."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Recruitment Landing",
+        "description": "Landing page + candidate cards with modern layout.",
+        "tech": ["React", "Tailwind"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-22", "text": "Good design; validate depth on engineering practices." }]
+  },
+  {
+    "id": "c-018",
+    "fullName": "Heba Salah",
+    "headline": "Frontend Engineer | React | Internationalization & UX",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 5,
+    "skills": ["React", "TypeScript", "i18n", "CSS", "Accessibility", "React Query"],
+    "availability": "1 month",
+    "updatedAt": "2026-02-01",
+    "status": "Open to work",
+    "score": 82,
+    "summary": "Builds robust UIs with i18n support and strong user-facing polish.",
+    "languages": ["Arabic", "English", "French"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/heba",
+      "github": "https://github.com/example-heba",
+      "linkedin": "https://linkedin.com/in/example-heba"
+    },
+    "experience": [
+      {
+        "company": "GlobeApps",
+        "title": "Frontend Engineer",
+        "start": "2021-07",
+        "end": "Present",
+        "highlights": [
+          "Implemented RTL-friendly layout patterns and translation tooling.",
+          "Designed consistent empty/error/loading states across pages."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Localized Directory",
+        "description": "Candidate directory supporting Arabic/English with RTL styling.",
+        "tech": ["React", "TypeScript", "i18n"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-01", "text": "Great UX; strong for multi-language products." }]
+  },
+  {
+    "id": "c-019",
+    "fullName": "Mostafa Rashed",
+    "headline": "Frontend Engineer | React | Maps & Location UI",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 4,
+    "skills": ["React", "TypeScript", "Maps", "CSS", "React Router", "Vite"],
+    "availability": "Immediate",
+    "updatedAt": "2026-01-21",
+    "status": "Open to work",
+    "score": 76,
+    "summary": "Comfortable integrating external libraries and building location-based UI.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Science",
+    "links": {
+      "portfolio": "https://example.com/mostafa",
+      "github": "https://github.com/example-mostafa",
+      "linkedin": "https://linkedin.com/in/example-mostafa"
+    },
+    "experience": [
+      {
+        "company": "RouteLab",
+        "title": "Frontend Engineer",
+        "start": "2022-09",
+        "end": "Present",
+        "highlights": [
+          "Integrated map views and location filters into directory experiences.",
+          "Built reusable filter components and badges."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Location Filter UI",
+        "description": "Location-based filtering UI with clear chip indicators.",
+        "tech": ["React", "TypeScript"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-21", "text": "Good for location UX; assess testing depth." }]
+  },
+  {
+    "id": "c-020",
+    "fullName": "Aya Khaled",
+    "headline": "Frontend Engineer | React | Motion & Micro-interactions",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 3,
+    "skills": ["React", "TypeScript", "Framer Motion", "CSS", "Figma", "Accessibility"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-02-03",
+    "status": "Open to work",
+    "score": 80,
+    "summary": "Adds tasteful motion and micro-interactions without compromising usability.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/aya",
+      "github": "https://github.com/example-aya",
+      "linkedin": "https://linkedin.com/in/example-aya"
+    },
+    "experience": [
+      {
+        "company": "MotionWorks",
+        "title": "Frontend Engineer",
+        "start": "2022-11",
+        "end": "Present",
+        "highlights": [
+          "Implemented animated transitions for cards and navigation.",
+          "Ensured motion respects reduced-motion preferences."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Interactive Candidate Cards",
+        "description": "Motion-enhanced cards with accessible focus states and hover feedback.",
+        "tech": ["React", "Framer Motion"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-03", "text": "Polished UI; verify performance considerations." }]
+  },
+
+  {
+    "id": "c-021",
+    "fullName": "Hany Gamal",
+    "headline": "Frontend Engineer | React | Tables & Filtering",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 6,
+    "skills": ["React", "TypeScript", "TanStack Table", "React Query", "CSS", "Testing Library"],
+    "availability": "1 month",
+    "updatedAt": "2026-01-20",
+    "status": "Open to work",
+    "score": 88,
+    "summary": "Experienced building complex filter/sort UIs and data tables for enterprise apps.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Software Engineering",
+    "links": {
+      "portfolio": "https://example.com/hany",
+      "github": "https://github.com/example-hany",
+      "linkedin": "https://linkedin.com/in/example-hany"
+    },
+    "experience": [
+      {
+        "company": "DataSuite",
+        "title": "Senior Frontend Engineer",
+        "start": "2020-06",
+        "end": "Present",
+        "highlights": [
+          "Built reusable filtering framework used across multiple products.",
+          "Introduced query-param state to preserve navigation context."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Candidate Management Table",
+        "description": "Advanced sorting/filtering with persisted state and clean UX.",
+        "tech": ["React", "TanStack Table"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-20", "text": "Strong senior profile; great for complex UIs." }]
+  },
+  {
+    "id": "c-022",
+    "fullName": "Nada Younis",
+    "headline": "Frontend Developer | React | Clean UI & Consistency",
+    "location": "Ismailia, Egypt",
+    "yearsOfExperience": 2,
+    "skills": ["React", "JavaScript", "CSS", "React Router", "Vitest", "Figma"],
+    "availability": "Immediate",
+    "updatedAt": "2026-02-05",
+    "status": "Open to work",
+    "score": 72,
+    "summary": "Consistent UI implementation, good readability and component organization.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Information Technology",
+    "links": {
+      "portfolio": "https://example.com/nada",
+      "github": "https://github.com/example-nada",
+      "linkedin": "https://linkedin.com/in/example-nada"
+    },
+    "experience": [
+      {
+        "company": "UIWorks",
+        "title": "Frontend Developer",
+        "start": "2024-03",
+        "end": "Present",
+        "highlights": [
+          "Implemented candidate cards and profile layouts from Figma.",
+          "Added basic unit tests for components."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Recruitment UI Kit",
+        "description": "Small set of reusable UI components (Badge, Card, Tag).",
+        "tech": ["React", "CSS"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-05", "text": "Good junior-mid; assess problem solving." }]
+  },
+  {
+    "id": "c-023",
+    "fullName": "Rania Ayman",
+    "headline": "Frontend Engineer | React | Design System Governance",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 7,
+    "skills": ["React", "TypeScript", "Design Tokens", "Storybook", "Accessibility", "Monorepos"],
+    "availability": "2 months",
+    "updatedAt": "2026-01-19",
+    "status": "Not currently looking",
+    "score": 91,
+    "summary": "Design system lead with strong governance, documentation, and component APIs.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/rania",
+      "github": "https://github.com/example-rania",
+      "linkedin": "https://linkedin.com/in/example-rania"
+    },
+    "experience": [
+      {
+        "company": "ScaleUI",
+        "title": "Lead Frontend Engineer",
+        "start": "2019-09",
+        "end": "Present",
+        "highlights": [
+          "Led a design system used by 8+ teams and maintained component standards.",
+          "Created contribution workflows, docs, and visual regression checks."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Enterprise Design System",
+        "description": "Token-driven components with accessibility baked in.",
+        "tech": ["React", "TypeScript", "Storybook"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-19", "text": "Excellent senior candidate; availability limited." }]
+  },
+  {
+    "id": "c-024",
+    "fullName": "Eslam Samir",
+    "headline": "Frontend Engineer | React | Animations + Performance",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 4,
+    "skills": ["React", "TypeScript", "Framer Motion", "Performance", "CSS", "Vite"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-01-18",
+    "status": "Open to work",
+    "score": 79,
+    "summary": "Balances animations with performance and accessibility considerations.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Science",
+    "links": {
+      "portfolio": "https://example.com/eslam",
+      "github": "https://github.com/example-eslam",
+      "linkedin": "https://linkedin.com/in/example-eslam"
+    },
+    "experience": [
+      {
+        "company": "SparkUI",
+        "title": "Frontend Engineer",
+        "start": "2022-02",
+        "end": "Present",
+        "highlights": [
+          "Introduced motion patterns and reduced layout jank.",
+          "Improved interaction latency by optimizing re-render paths."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Animated Directory",
+        "description": "Card transitions + preserved scroll position for better UX.",
+        "tech": ["React", "Framer Motion"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-18", "text": "Nice UI polish; check testing depth." }]
+  },
+  {
+    "id": "c-025",
+    "fullName": "Nada Mahmoud",
+    "headline": "Frontend Engineer | React | URL State & Routing",
+    "location": "Alexandria, Egypt",
+    "yearsOfExperience": 3,
+    "skills": ["React", "TypeScript", "React Router", "URL State", "CSS", "Vitest"],
+    "availability": "Immediate",
+    "updatedAt": "2026-02-04",
+    "status": "Open to work",
+    "score": 80,
+    "summary": "Strong at URL-synced filters/search, navigation preservation, and routing patterns.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/nada-m",
+      "github": "https://github.com/example-nada-m",
+      "linkedin": "https://linkedin.com/in/example-nada-m"
+    },
+    "experience": [
+      {
+        "company": "RouteCraft",
+        "title": "Frontend Engineer",
+        "start": "2023-01",
+        "end": "Present",
+        "highlights": [
+          "Built query-param driven filter and sort UX for directories.",
+          "Implemented scroll restoration and consistent back navigation."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Search + Filter UX",
+        "description": "Search and filters persisted in URL for shareable state.",
+        "tech": ["React", "React Router", "TypeScript"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-04", "text": "Great fit for this assessment’s navigation requirements." }]
+  },
+
+  {
+    "id": "c-026",
+    "fullName": "Hossam Yasser",
+    "headline": "Frontend Developer | React | UI + API Integration",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 3,
+    "skills": ["React", "TypeScript", "Axios", "React Query", "CSS", "Error Handling"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-01-17",
+    "status": "Open to work",
+    "score": 78,
+    "summary": "Solid API integration and UI states; pragmatic approach to features.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Science",
+    "links": {
+      "portfolio": "https://example.com/hossam",
+      "github": "https://github.com/example-hossam",
+      "linkedin": "https://linkedin.com/in/example-hossam"
+    },
+    "experience": [
+      {
+        "company": "IntegrateX",
+        "title": "Frontend Developer",
+        "start": "2023-05",
+        "end": "Present",
+        "highlights": [
+          "Implemented error handling UX with retries and user guidance.",
+          "Built caching layers for list/detail data fetching."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Candidate API Client",
+        "description": "Thin API client with request hooks and caching.",
+        "tech": ["React", "React Query"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-17", "text": "Good integration skills; verify design polish." }]
+  },
+  {
+    "id": "c-027",
+    "fullName": "Rawan Tamer",
+    "headline": "Frontend Engineer | React | Mobile-first",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 4,
+    "skills": ["React", "TypeScript", "Responsive Design", "CSS", "Accessibility", "Vite"],
+    "availability": "1 month",
+    "updatedAt": "2026-01-16",
+    "status": "Open to work",
+    "score": 81,
+    "summary": "Mobile-first UI focus with strong layout adaptability and component reuse.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/rawan",
+      "github": "https://github.com/example-rawan",
+      "linkedin": "https://linkedin.com/in/example-rawan"
+    },
+    "experience": [
+      {
+        "company": "MobileFirst Studio",
+        "title": "Frontend Engineer",
+        "start": "2022-07",
+        "end": "Present",
+        "highlights": [
+          "Designed responsive directory layouts that work well on small screens.",
+          "Implemented accessible filter drawers and navigation."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Responsive Recruitment UI",
+        "description": "Filter drawer + responsive cards optimized for mobile.",
+        "tech": ["React", "TypeScript"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-16", "text": "Strong responsive UX; good fit for mobile constraints." }]
+  },
+  {
+    "id": "c-028",
+    "fullName": "Khaled Nassar",
+    "headline": "Frontend Engineer | React | Security-aware UI",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 5,
+    "skills": ["React", "TypeScript", "Secure UI", "Forms", "CSS", "Testing Library"],
+    "availability": "2 weeks",
+    "updatedAt": "2026-01-15",
+    "status": "Open to work",
+    "score": 77,
+    "summary": "Strong at building safe UI patterns (sanitization, safe links, robust inputs).",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Science",
+    "links": {
+      "portfolio": "https://example.com/khaled",
+      "github": "https://github.com/example-khaled",
+      "linkedin": "https://linkedin.com/in/example-khaled"
+    },
+    "experience": [
+      {
+        "company": "SafeWeb",
+        "title": "Frontend Engineer",
+        "start": "2021-11",
+        "end": "Present",
+        "highlights": [
+          "Standardized safe link handling and input validation patterns.",
+          "Added unit tests for critical UI edge cases."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Safe Profile Links",
+        "description": "Secure handling for external links and profile data rendering.",
+        "tech": ["React", "TypeScript"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-15", "text": "Good reliability; ensure modern UI feel." }]
+  },
+  {
+    "id": "c-029",
+    "fullName": "Yara Mahmoud",
+    "headline": "Frontend Developer | React | Clean UI & Speed",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 2,
+    "skills": ["React", "JavaScript", "Vite", "CSS", "React Router", "UI Components"],
+    "availability": "Immediate",
+    "updatedAt": "2026-02-06",
+    "status": "Open to work",
+    "score": 74,
+    "summary": "Fast implementation with clean UI; growing in architecture and testing.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Information Systems",
+    "links": {
+      "portfolio": "https://example.com/yara",
+      "github": "https://github.com/example-yara",
+      "linkedin": "https://linkedin.com/in/example-yara"
+    },
+    "experience": [
+      {
+        "company": "QuickShip",
+        "title": "Junior Frontend Developer",
+        "start": "2024-05",
+        "end": "Present",
+        "highlights": [
+          "Shipped multiple UI pages with consistent styling and components.",
+          "Implemented search and filter flows for directory pages."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Candidate Search",
+        "description": "Search and filter UI with clear empty states.",
+        "tech": ["React", "Vite"]
+      }
+    ],
+    "notes": [{ "date": "2026-02-06", "text": "Good junior profile; check problem solving." }]
+  },
+  {
+    "id": "c-030",
+    "fullName": "Amr Fekry",
+    "headline": "Senior Frontend Engineer | React | Product Architecture",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 8,
+    "skills": ["React", "TypeScript", "React Query", "State Machines", "Accessibility", "Testing"],
+    "availability": "2 months",
+    "updatedAt": "2026-01-14",
+    "status": "Open to offers",
+    "score": 92,
+    "summary": "Senior engineer with strong product architecture, UI state modeling, and quality practices.",
+    "languages": ["Arabic", "English"],
+    "education": "BSc Computer Engineering",
+    "links": {
+      "portfolio": "https://example.com/amr",
+      "github": "https://github.com/example-amr",
+      "linkedin": "https://linkedin.com/in/example-amr"
+    },
+    "experience": [
+      {
+        "company": "ProductScale",
+        "title": "Senior Frontend Engineer",
+        "start": "2019-01",
+        "end": "Present",
+        "highlights": [
+          "Introduced robust data fetching patterns and error boundaries across the app.",
+          "Modeled complex UI state to reduce bugs and improve maintainability."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Recruitment Platform UI",
+        "description": "End-to-end UI architecture for candidate browsing and profiles.",
+        "tech": ["React", "TypeScript", "React Query"]
+      }
+    ],
+    "notes": [{ "date": "2026-01-14", "text": "Excellent senior candidate; strong system thinking." }]
+  }
+]

@@ -1,0 +1,1449 @@
+{
+  "jobId": "j-005",
+  "topK": 30,
+  "results": [
+    {
+      "candidateId": "c-011",
+      "candidateName": "Mai Sherif",
+      "score": 75.47,
+      "matchedSkills": [
+        "react",
+        "forms",
+        "zod",
+        "error handling",
+        "typescript",
+        "react hook form",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Rescued 1 from text (forms).",
+          "weight": 43.75
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 2/4 nice-to-have skills. Rescued 1 from text (error handling). Missing: vitest.",
+          "weight": 12.5
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.88x penalty multiplier.",
+          "weight": -10.78
+        }
+      ],
+      "summary": "Potential match. Meets experience requirements. Matches all must-haves, plus bonus skills (error handling, zod). (2 missing skills were rescued by scanning experience/projects).",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "score": 54.38,
+      "matchedSkills": [
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 8.0 years, (+5.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -18.12
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (8.0 yrs). Missing core skills: forms.",
+      "availability": "2 months"
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "score": 54.38,
+      "matchedSkills": [
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 7.0 years, (+5.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -18.12
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (7.0 yrs). Missing core skills: forms.",
+      "availability": "2 months"
+    },
+    {
+      "candidateId": "c-028",
+      "candidateName": "Khaled Nassar",
+      "score": 53.62,
+      "matchedSkills": [
+        "react",
+        "forms",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: accessibility.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.88
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: accessibility.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-018",
+      "candidateName": "Heba Salah",
+      "score": 53.62,
+      "matchedSkills": [
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.88
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: forms.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-001",
+      "candidateName": "Lina Hassan",
+      "score": 52.12,
+      "matchedSkills": [
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.38
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-007",
+      "candidateName": "Nour Adel",
+      "score": 52.12,
+      "matchedSkills": [
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.38
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-027",
+      "candidateName": "Rawan Tamer",
+      "score": 52.12,
+      "matchedSkills": [
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.38
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-020",
+      "candidateName": "Aya Khaled",
+      "score": 50.62,
+      "matchedSkills": [
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -16.88
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-006",
+      "candidateName": "Kareem Mostafa",
+      "score": 40.78,
+      "matchedSkills": [
+        "react",
+        "forms",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Rescued 1 from text (forms). Missing: accessibility.",
+          "weight": 31.25
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.62x penalty multiplier.",
+          "weight": -24.47
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: accessibility. (1 missing skills were rescued by scanning experience/projects).",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-014",
+      "candidateName": "Mohamed Hany",
+      "score": 40.78,
+      "matchedSkills": [
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Rescued 1 from text (accessibility). Missing: forms.",
+          "weight": 31.25
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.62x penalty multiplier.",
+          "weight": -24.47
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: forms. (1 missing skills were rescued by scanning experience/projects).",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-024",
+      "candidateName": "Eslam Samir",
+      "score": 39.53,
+      "matchedSkills": [
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Rescued 1 from text (accessibility). Missing: forms.",
+          "weight": 31.25
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.62x penalty multiplier.",
+          "weight": -23.72
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms. (1 missing skills were rescued by scanning experience/projects).",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-016",
+      "candidateName": "Adham Ehab",
+      "score": 31.0,
+      "matchedSkills": [
+        "react",
+        "vitest",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "weight": 5.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -31.0
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-026",
+      "candidateName": "Hossam Yasser",
+      "score": 30.0,
+      "matchedSkills": [
+        "react",
+        "error handling",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "react hook form",
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, react hook form, vitest.",
+          "weight": 5.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -30.0
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-004",
+      "candidateName": "Youssef Abdelrahman",
+      "score": 30.0,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 6.0 years, (+5.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -30.0
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: forms, accessibility.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-021",
+      "candidateName": "Hany Gamal",
+      "score": 30.0,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 6.0 years, (+5.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -30.0
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: forms, accessibility.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-005",
+      "candidateName": "Mariam Fathy",
+      "score": 29.75,
+      "matchedSkills": [
+        "react",
+        "react hook form",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, vitest.",
+          "weight": 5.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Mansoura, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -29.75
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-012",
+      "candidateName": "Tarek Hamdi",
+      "score": 29.75,
+      "matchedSkills": [
+        "react",
+        "vitest",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "weight": 5.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Alexandria, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -29.75
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-015",
+      "candidateName": "Reem Hossam",
+      "score": 29.75,
+      "matchedSkills": [
+        "react",
+        "error handling",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Rescued 1 from text (error handling). Missing: zod, vitest, react hook form.",
+          "weight": 2.5
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -29.75
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility. (1 missing skills were rescued by scanning experience/projects).",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-025",
+      "candidateName": "Nada Mahmoud",
+      "score": 28.75,
+      "matchedSkills": [
+        "react",
+        "vitest",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "weight": 5.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Alexandria, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -28.75
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-019",
+      "candidateName": "Mostafa Rashed",
+      "score": 28.5,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -28.5
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-010",
+      "candidateName": "Ahmed Saad",
+      "score": 28.5,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -28.5
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-008",
+      "candidateName": "Hassan Magdy",
+      "score": 28.25,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Tanta, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -28.25
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: forms, accessibility.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-003",
+      "candidateName": "Sara Nabil",
+      "score": 26.25,
+      "matchedSkills": [
+        "react",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "typescript",
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: typescript, forms.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Giza, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -26.25
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: typescript, forms.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-009",
+      "candidateName": "Dina Ashraf",
+      "score": 23.06,
+      "matchedSkills": [
+        "react",
+        "forms",
+        "vitest",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 1/4 must-have skills. Rescued 2 from text (forms, accessibility). Missing: typescript.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "weight": 5.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 11.11
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -23.06
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript. (2 missing skills were rescued by scanning experience/projects).",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-002",
+      "candidateName": "Omar El-Sayed",
+      "score": 12.25,
+      "matchedSkills": [
+        "react",
+        "vitest"
+      ],
+      "missingMustHaveSkills": [
+        "typescript",
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: typescript, forms, accessibility.",
+          "weight": 12.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "weight": 5.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Alexandria, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.25x penalty multiplier.",
+          "weight": -36.75
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: typescript, forms, etc..",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-013",
+      "candidateName": "Salma Emad",
+      "score": 10.62,
+      "matchedSkills": [
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "typescript",
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: typescript, forms, accessibility.",
+          "weight": 12.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.25x penalty multiplier.",
+          "weight": -31.88
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: typescript, forms, etc..",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-022",
+      "candidateName": "Nada Younis",
+      "score": 7.78,
+      "matchedSkills": [
+        "react",
+        "vitest"
+      ],
+      "missingMustHaveSkills": [
+        "typescript",
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: typescript, forms, accessibility.",
+          "weight": 12.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "weight": 5.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 11.11
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Ismailia, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.25x penalty multiplier.",
+          "weight": -23.33
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript, forms, etc..",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-029",
+      "candidateName": "Yara Mahmoud",
+      "score": 7.15,
+      "matchedSkills": [
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "typescript",
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: typescript, forms, accessibility.",
+          "weight": 12.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 11.11
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.25x penalty multiplier.",
+          "weight": -21.46
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript, forms, etc..",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-017",
+      "candidateName": "Farah Mounir",
+      "score": 6.53,
+      "matchedSkills": [
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "typescript",
+        "forms",
+        "accessibility"
+      ],
+      "missingNiceToHaveSkills": [
+        "zod",
+        "error handling",
+        "vitest",
+        "react hook form"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: typescript, forms, accessibility.",
+          "weight": 12.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 11.11
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Alexandria, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.25x penalty multiplier.",
+          "weight": -19.58
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript, forms, etc..",
+      "availability": "2 weeks"
+    }
+  ],
+  "meta": {
+    "approach": "baseline-v1",
+    "generatedAt": "2026-05-05T22:06:03.726073Z"
+  }
+}

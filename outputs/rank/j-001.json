@@ -1,0 +1,1456 @@
+{
+  "jobId": "j-001",
+  "topK": 30,
+  "results": [
+    {
+      "candidateId": "c-019",
+      "candidateName": "Mostafa Rashed",
+      "score": 82.0,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "react router"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 4/4 must-have skills.",
+          "weight": 50.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Missing: design tokens, vitest, accessibility, react query, storybook.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        }
+      ],
+      "summary": "Potential match. Meets experience requirements. Matches all core must-have requirements.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-010",
+      "candidateName": "Ahmed Saad",
+      "score": 82.0,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "react router"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 4/4 must-have skills.",
+          "weight": 50.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Missing: design tokens, vitest, accessibility, react query, storybook.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        }
+      ],
+      "summary": "Potential match. Meets experience requirements. Matches all core must-have requirements.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-015",
+      "candidateName": "Reem Hossam",
+      "score": 82.0,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "react router"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 4/4 must-have skills.",
+          "weight": 50.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Missing: design tokens, vitest, accessibility, react query, storybook.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        }
+      ],
+      "summary": "Potential match. Meets experience requirements. Matches all core must-have requirements.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-025",
+      "candidateName": "Nada Mahmoud",
+      "score": 81.5,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "vitest",
+        "react router"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "accessibility",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 4/4 must-have skills.",
+          "weight": 50.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Missing: storybook, design tokens, accessibility, react query.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Alexandria, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        }
+      ],
+      "summary": "Potential match. Meets experience requirements. Matches all must-haves, plus bonus skills (vitest).",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-018",
+      "candidateName": "Heba Salah",
+      "score": 59.62,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "accessibility",
+        "react query"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 2/5 nice-to-have skills. Missing: storybook, design tokens, vitest.",
+          "weight": 8.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -19.88
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: react router.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-001",
+      "candidateName": "Lina Hassan",
+      "score": 59.62,
+      "matchedSkills": [
+        "css",
+        "react",
+        "design tokens",
+        "storybook",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "vitest",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 2/5 nice-to-have skills. Rescued 1 from text (design tokens). Missing: vitest, react query.",
+          "weight": 10.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -19.88
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: react router. (1 missing skills were rescued by scanning experience/projects).",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-021",
+      "candidateName": "Hany Gamal",
+      "score": 57.38,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "react query"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "vitest",
+        "accessibility"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Missing: storybook, design tokens, vitest, accessibility.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 6.0 years, (+5.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -19.12
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: react router.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-016",
+      "candidateName": "Adham Ehab",
+      "score": 55.12,
+      "matchedSkills": [
+        "css",
+        "react",
+        "vitest",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "accessibility",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Missing: storybook, design tokens, accessibility, react query.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -18.38
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: react router.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-027",
+      "candidateName": "Rawan Tamer",
+      "score": 55.12,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "vitest",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Missing: storybook, design tokens, vitest, react query.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -18.38
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: react router.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-020",
+      "candidateName": "Aya Khaled",
+      "score": 53.62,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "vitest",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Missing: storybook, design tokens, vitest, react query.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.88
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: react router.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-026",
+      "candidateName": "Hossam Yasser",
+      "score": 53.62,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "react query"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "vitest",
+        "accessibility"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Missing: storybook, design tokens, vitest, accessibility.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.88
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: react router.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-011",
+      "candidateName": "Mai Sherif",
+      "score": 53.62,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "vitest",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Missing: storybook, design tokens, vitest, react query.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.88
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: react router.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-028",
+      "candidateName": "Khaled Nassar",
+      "score": 53.62,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Missing: design tokens, vitest, accessibility, react query, storybook.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.88
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: react router.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-024",
+      "candidateName": "Eslam Samir",
+      "score": 53.62,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Rescued 1 from text (accessibility). Missing: design tokens, vitest, react query, storybook.",
+          "weight": 2.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.88
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: react router. (1 missing skills were rescued by scanning experience/projects).",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-012",
+      "candidateName": "Tarek Hamdi",
+      "score": 53.25,
+      "matchedSkills": [
+        "css",
+        "react",
+        "vitest",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "accessibility",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Missing: storybook, design tokens, accessibility, react query.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Alexandria, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.75
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: react router.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-008",
+      "candidateName": "Hassan Magdy",
+      "score": 51.75,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Missing: design tokens, vitest, accessibility, react query, storybook.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Tanta, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -17.25
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: react router.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-005",
+      "candidateName": "Mariam Fathy",
+      "score": 50.25,
+      "matchedSkills": [
+        "css",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: react router.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Missing: design tokens, vitest, accessibility, react query, storybook.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Mansoura, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -16.75
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: react router.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-022",
+      "candidateName": "Nada Younis",
+      "score": 41.33,
+      "matchedSkills": [
+        "css",
+        "react",
+        "vitest",
+        "react router"
+      ],
+      "missingMustHaveSkills": [
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "accessibility",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: typescript.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Missing: storybook, design tokens, accessibility, react query.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 11.11
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Ismailia, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -13.78
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-029",
+      "candidateName": "Yara Mahmoud",
+      "score": 40.21,
+      "matchedSkills": [
+        "css",
+        "react",
+        "react router"
+      ],
+      "missingMustHaveSkills": [
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: typescript.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Missing: design tokens, vitest, accessibility, react query, storybook.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 11.11
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -13.4
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-017",
+      "candidateName": "Farah Mounir",
+      "score": 38.33,
+      "matchedSkills": [
+        "css",
+        "react",
+        "react router"
+      ],
+      "missingMustHaveSkills": [
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: typescript.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Missing: design tokens, vitest, accessibility, react query, storybook.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 11.11
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Alexandria, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -12.78
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "score": 36.0,
+      "matchedSkills": [
+        "react",
+        "design tokens",
+        "storybook",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "css",
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "vitest",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: css, react router.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 3/5 nice-to-have skills. Missing: vitest, react query.",
+          "weight": 12.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 7.0 years, (+5.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -36.0
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (7.0 yrs). Missing core skills: css, react router.",
+      "availability": "2 months"
+    },
+    {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "score": 34.0,
+      "matchedSkills": [
+        "react",
+        "react query",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "css",
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: css, react router.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 2/5 nice-to-have skills. Missing: storybook, design tokens, vitest.",
+          "weight": 8.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 8.0 years, (+5.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -34.0
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (8.0 yrs). Missing core skills: css, react router.",
+      "availability": "2 months"
+    },
+    {
+      "candidateId": "c-007",
+      "candidateName": "Nour Adel",
+      "score": 33.5,
+      "matchedSkills": [
+        "react",
+        "design tokens",
+        "typescript",
+        "storybook",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "css",
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "vitest",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: css, react router.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 2/5 nice-to-have skills. Rescued 1 from text (design tokens). Missing: vitest, react query.",
+          "weight": 10.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 27.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -33.5
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: css, react router. (1 missing skills were rescued by scanning experience/projects).",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-014",
+      "candidateName": "Mohamed Hany",
+      "score": 32.5,
+      "matchedSkills": [
+        "react",
+        "storybook",
+        "typescript",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "css",
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "react query",
+        "design tokens",
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: css, react router.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Rescued 1 from text (accessibility). Missing: react query, design tokens, vitest.",
+          "weight": 6.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -32.5
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: css, react router. (1 missing skills were rescued by scanning experience/projects).",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-004",
+      "candidateName": "Youssef Abdelrahman",
+      "score": 31.0,
+      "matchedSkills": [
+        "react",
+        "storybook",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "css",
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: css, react router.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Rescued 1 from text (storybook). Missing: design tokens, vitest, accessibility, react query.",
+          "weight": 2.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 6.0 years, (+5.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -31.0
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: css, react router. (1 missing skills were rescued by scanning experience/projects).",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-006",
+      "candidateName": "Kareem Mostafa",
+      "score": 29.5,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "css",
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: css, react router.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Missing: design tokens, vitest, accessibility, react query, storybook.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -29.5
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: css, react router.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-013",
+      "candidateName": "Salma Emad",
+      "score": 27.5,
+      "matchedSkills": [
+        "css",
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "typescript",
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "design tokens",
+        "vitest",
+        "accessibility",
+        "react query",
+        "storybook"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: typescript, react router.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/5 nice-to-have skills. Missing: design tokens, vitest, accessibility, react query, storybook.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -27.5
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: typescript, react router.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-009",
+      "candidateName": "Dina Ashraf",
+      "score": 23.56,
+      "matchedSkills": [
+        "css",
+        "react",
+        "vitest",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "typescript",
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: typescript, react router.",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Rescued 1 from text (accessibility). Missing: storybook, design tokens, react query.",
+          "weight": 6.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 11.11
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
+          "weight": -23.56
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript, react router. (1 missing skills were rescued by scanning experience/projects).",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-002",
+      "candidateName": "Omar El-Sayed",
+      "score": 13.0,
+      "matchedSkills": [
+        "react",
+        "vitest",
+        "react query"
+      ],
+      "missingMustHaveSkills": [
+        "css",
+        "typescript",
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "accessibility"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: css, typescript, react router.",
+          "weight": 12.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 2/5 nice-to-have skills. Missing: storybook, design tokens, accessibility.",
+          "weight": 8.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 29.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Alexandria, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.25x penalty multiplier.",
+          "weight": -39.0
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: css, typescript, etc..",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-003",
+      "candidateName": "Sara Nabil",
+      "score": 11.0,
+      "matchedSkills": [
+        "react",
+        "accessibility"
+      ],
+      "missingMustHaveSkills": [
+        "css",
+        "typescript",
+        "react router"
+      ],
+      "missingNiceToHaveSkills": [
+        "storybook",
+        "design tokens",
+        "vitest",
+        "react query"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: css, typescript, react router.",
+          "weight": 12.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 1/5 nice-to-have skills. Missing: storybook, design tokens, vitest, react query.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 25.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate is in Giza, Egypt but willing to relocate to Cairo, Egypt. Half location points awarded.",
+          "weight": 2.5
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.25x penalty multiplier.",
+          "weight": -33.0
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: css, typescript, etc..",
+      "availability": "1 month"
+    }
+  ],
+  "meta": {
+    "approach": "baseline-v1",
+    "generatedAt": "2026-05-05T22:06:03.726073Z"
+  }
+}

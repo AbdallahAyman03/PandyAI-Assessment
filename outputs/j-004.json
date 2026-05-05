@@ -1,0 +1,1270 @@
+{
+  "jobId": "j-004",
+  "topK": 30,
+  "results": [
+    {
+      "candidateId": "c-005",
+      "candidateName": "Mariam Fathy",
+      "score": 48.89,
+      "matchedSkills": [
+        "d3",
+        "react",
+        "recharts",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "react query",
+        "url state"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 2/5 nice-to-have skills: d3, recharts. Missing: performance, react query, url state.",
+          "weight": 8.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 32.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -24.44
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "score": 48.22,
+      "matchedSkills": [
+        "react query",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "d3",
+        "url state",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 1/5 nice-to-have skills: react query. Missing: performance, d3, url state, recharts.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 8.0 years, (+5.0 bonus points applied).",
+          "weight": 35.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -24.11
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (8.0 yrs). Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-021",
+      "candidateName": "Hany Gamal",
+      "score": 48.22,
+      "matchedSkills": [
+        "react query",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "d3",
+        "url state",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 1/5 nice-to-have skills: react query. Missing: performance, d3, url state, recharts.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 6.0 years, (+5.0 bonus points applied).",
+          "weight": 35.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -24.11
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-018",
+      "candidateName": "Heba Salah",
+      "score": 47.56,
+      "matchedSkills": [
+        "react query",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "d3",
+        "url state",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 1/5 nice-to-have skills: react query. Missing: performance, d3, url state, recharts.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 34.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -23.78
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-024",
+      "candidateName": "Eslam Samir",
+      "score": 46.22,
+      "matchedSkills": [
+        "performance",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "react query",
+        "d3",
+        "url state",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 1/5 nice-to-have skills: performance. Missing: react query, d3, url state, recharts.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 32.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -23.11
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "score": 45.56,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 7.0 years, (+5.0 bonus points applied).",
+          "weight": 35.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -22.78
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (7.0 yrs). Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-004",
+      "candidateName": "Youssef Abdelrahman",
+      "score": 45.56,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 6.0 years, (+5.0 bonus points applied).",
+          "weight": 35.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -22.78
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-025",
+      "candidateName": "Nada Mahmoud",
+      "score": 44.89,
+      "matchedSkills": [
+        "url state",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "react query",
+        "recharts",
+        "d3"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 1/5 nice-to-have skills: url state. Missing: performance, react query, recharts, d3.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -22.44
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-026",
+      "candidateName": "Hossam Yasser",
+      "score": 44.89,
+      "matchedSkills": [
+        "react query",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "d3",
+        "url state",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 1/5 nice-to-have skills: react query. Missing: performance, d3, url state, recharts.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -22.44
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-006",
+      "candidateName": "Kareem Mostafa",
+      "score": 44.89,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 34.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -22.44
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-008",
+      "candidateName": "Hassan Magdy",
+      "score": 44.89,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 34.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -22.44
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-014",
+      "candidateName": "Mohamed Hany",
+      "score": 44.89,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 34.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -22.44
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-028",
+      "candidateName": "Khaled Nassar",
+      "score": 44.89,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 34.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -22.44
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-001",
+      "candidateName": "Lina Hassan",
+      "score": 43.56,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 32.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -21.78
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-007",
+      "candidateName": "Nour Adel",
+      "score": 43.56,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 32.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -21.78
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-010",
+      "candidateName": "Ahmed Saad",
+      "score": 43.56,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 32.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -21.78
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-012",
+      "candidateName": "Tarek Hamdi",
+      "score": 43.56,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 32.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -21.78
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-015",
+      "candidateName": "Reem Hossam",
+      "score": 43.56,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 32.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -21.78
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-016",
+      "candidateName": "Adham Ehab",
+      "score": 43.56,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 32.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -21.78
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-019",
+      "candidateName": "Mostafa Rashed",
+      "score": 43.56,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 32.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -21.78
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-027",
+      "candidateName": "Rawan Tamer",
+      "score": 43.56,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "weight": 32.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -21.78
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-011",
+      "candidateName": "Mai Sherif",
+      "score": 42.22,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -21.11
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-020",
+      "candidateName": "Aya Khaled",
+      "score": 42.22,
+      "matchedSkills": [
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 2/3 must-have skills: react, typescript. Missing: data visualization.",
+          "weight": 33.33
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.67x penalty multiplier.",
+          "weight": -21.11
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization."
+    },
+    {
+      "candidateId": "c-002",
+      "candidateName": "Omar El-Sayed",
+      "score": 18.22,
+      "matchedSkills": [
+        "react query",
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization",
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "d3",
+        "url state",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 1/3 must-have skills: react. Missing: data visualization, typescript.",
+          "weight": 16.67
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 1/5 nice-to-have skills: react query. Missing: performance, d3, url state, recharts.",
+          "weight": 4.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "weight": 34.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.33x penalty multiplier.",
+          "weight": -36.44
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: data visualization, typescript."
+    },
+    {
+      "candidateId": "c-003",
+      "candidateName": "Sara Nabil",
+      "score": 15.56,
+      "matchedSkills": [
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization",
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 1/3 must-have skills: react. Missing: data visualization, typescript.",
+          "weight": 16.67
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.33x penalty multiplier.",
+          "weight": -31.11
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization, typescript."
+    },
+    {
+      "candidateId": "c-013",
+      "candidateName": "Salma Emad",
+      "score": 15.56,
+      "matchedSkills": [
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization",
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 1/3 must-have skills: react. Missing: data visualization, typescript.",
+          "weight": 16.67
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "weight": 30.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.33x penalty multiplier.",
+          "weight": -31.11
+        }
+      ],
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: data visualization, typescript."
+    },
+    {
+      "candidateId": "c-009",
+      "candidateName": "Dina Ashraf",
+      "score": 10.0,
+      "matchedSkills": [
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization",
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 1/3 must-have skills: react. Missing: data visualization, typescript.",
+          "weight": 16.67
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 13.33
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.33x penalty multiplier.",
+          "weight": -20.0
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: data visualization, typescript."
+    },
+    {
+      "candidateId": "c-017",
+      "candidateName": "Farah Mounir",
+      "score": 10.0,
+      "matchedSkills": [
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization",
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 1/3 must-have skills: react. Missing: data visualization, typescript.",
+          "weight": 16.67
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 13.33
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.33x penalty multiplier.",
+          "weight": -20.0
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: data visualization, typescript."
+    },
+    {
+      "candidateId": "c-022",
+      "candidateName": "Nada Younis",
+      "score": 10.0,
+      "matchedSkills": [
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization",
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 1/3 must-have skills: react. Missing: data visualization, typescript.",
+          "weight": 16.67
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 13.33
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.33x penalty multiplier.",
+          "weight": -20.0
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: data visualization, typescript."
+    },
+    {
+      "candidateId": "c-029",
+      "candidateName": "Yara Mahmoud",
+      "score": 10.0,
+      "matchedSkills": [
+        "react"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization",
+        "typescript"
+      ],
+      "missingNiceToHaveSkills": [
+        "performance",
+        "url state",
+        "react query",
+        "d3",
+        "recharts"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Matched 1/3 must-have skills: react. Missing: data visualization, typescript.",
+          "weight": 16.67
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Matched 0/5 nice-to-have skills: None. Missing: performance, url state, react query, d3, recharts.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate has 2.0 years, job requires 3.0. Exponential penalty applied.",
+          "weight": 13.33
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.33x penalty multiplier.",
+          "weight": -20.0
+        }
+      ],
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: data visualization, typescript."
+    }
+  ],
+  "meta": {
+    "approach": "baseline-v1",
+    "generatedAt": "2026-05-05T19:23:49.187062Z"
+  }
+}

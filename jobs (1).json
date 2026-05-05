@@ -1,0 +1,57 @@
+[
+  {
+    "id": "j-001",
+    "title": "Frontend Engineer (React) — UI Craft",
+    "description": "We’re building a design-forward recruitment platform. You will create polished, responsive UI components, improve usability, and ship production-quality experiences. You should be strong in React and TypeScript, comfortable with CSS, and able to collaborate on component patterns and code quality.",
+    "requirements": {
+      "mustHaveSkills": ["React", "TypeScript", "CSS", "React Router"],
+      "niceToHaveSkills": ["Accessibility", "Storybook", "Vitest", "React Query", "Design Tokens"],
+      "minYears": 3,
+      "location": "Cairo, Egypt"
+    }
+  },
+  {
+    "id": "j-002",
+    "title": "Senior Frontend Engineer — Performance & Data",
+    "description": "We need a senior frontend engineer for a candidate marketplace with heavy filtering and data fetching. You will own performance improvements (Core Web Vitals), caching strategies, and architecture for complex UI state. Experience with testing and reliable data patterns is required.",
+    "requirements": {
+      "mustHaveSkills": ["React", "TypeScript", "Performance", "Testing Library"],
+      "niceToHaveSkills": ["React Query", "Vitest", "Code Splitting", "Lighthouse", "TanStack Table"],
+      "minYears": 5,
+      "location": "Cairo, Egypt"
+    }
+  },
+  {
+    "id": "j-003",
+    "title": "Frontend Engineer — Design Systems",
+    "description": "You will help scale a design system used across multiple teams. The role involves building reusable components, establishing tokens, and improving accessibility. You should be comfortable documenting components and maintaining consistency across multiple product surfaces.",
+    "requirements": {
+      "mustHaveSkills": ["React", "TypeScript", "Storybook", "Accessibility"],
+      "niceToHaveSkills": ["Design Tokens", "Monorepos", "Visual Regression Testing", "CSS Modules"],
+      "minYears": 4,
+      "location": "Cairo, Egypt"
+    }
+  },
+  {
+    "id": "j-004",
+    "title": "Frontend Engineer — Data Visualization",
+    "description": "We’re building recruiter analytics: funnels, breakdowns, and interactive charts. You will implement data visualizations and filterable dashboards with clear UX. Strong React fundamentals are required, plus a track record of building interactive charts.",
+    "requirements": {
+      "mustHaveSkills": ["React", "TypeScript", "Data Visualization"],
+      "niceToHaveSkills": ["D3", "Recharts", "React Query", "URL State", "Performance"],
+      "minYears": 3,
+      "location": "Cairo, Egypt"
+    }
+  },
+  {
+    "id": "j-005",
+    "title": "Frontend Engineer — Forms & Validation UX",
+    "description": "You will build recruiter workflows that include complex forms, validation, and great error UX. The ideal candidate is strong in React forms, structured validation patterns, and accessibility for form interactions.",
+    "requirements": {
+      "mustHaveSkills": ["React", "TypeScript", "Forms", "Accessibility"],
+      "niceToHaveSkills": ["React Hook Form", "Zod", "Error Handling", "Vitest"],
+      "minYears": 3,
+      "location": "Cairo, Egypt"
+    }
+  }
+]
