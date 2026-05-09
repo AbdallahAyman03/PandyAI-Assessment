@@ -13,95 +13,206 @@
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
-    filecolor=magenta,      
+    filecolor=magenta,
     urlcolor=cyan,
-    pdftitle={Multi-Tiered Candidate Matching Engine Architecture},
+    pdftitle={Candidate Matching Engine Report},
 }
 
-\title{\textbf{Multi-Tiered Candidate Matching Engine:\\ Architecture, Implementation, and Comparative Analysis}}
-\author{PandyAi Engineering}
-\date{\today}
+\title{\textbf{Candidate Matching Engine}}
+\author{Abdallah Ayman}
 
 \begin{document}
 
 \maketitle
-
-\begin{abstract}
-This report details the architectural design and implementation of a three-tiered candidate matching engine designed to evaluate software engineering candidates against job descriptions. The system implements three distinct analytical methodologies: a rigid \textbf{Deterministic Baseline}, an embedding-driven \textbf{Hybrid Engine}, and an LLM-powered \textbf{Agentic Re-ranker}. This document provides a comprehensive technical breakdown of each approach, the underlying scoring mechanics, and a comparative analysis evaluating trade-offs between computational overhead, scalability, and semantic accuracy.
-\end{abstract}
-
+\newpage
 \tableofcontents
 \newpage
 
-\section{Introduction}
-Modern Applicant Tracking Systems (ATS) struggle to accurately evaluate candidates due to the nuances in resume formatting, implicit skill transferability, and the rigidness of keyword-matching algorithms. To solve this, the developed matching engine transitions from a simple rule-based script into a modular, multi-tier orchestration pipeline.
-
-By executing commands via the CLI (e.g., \texttt{--approach deterministic | hybrid | agentic}), the pipeline allows recruiters and system administrators to toggle between speed, semantic understanding, and deep contextual reasoning.
-
-\section{System Architecture Overview}
-The system is built upon a modular orchestration layer (\texttt{approaches.py}), standardizing the input/output boundaries for all evaluation strategies. Each job is processed alongside a pool of candidates, outputting two distinct artifacts per job:
+\section{System Overview}
+The system processes a job description and a candidate pool and produces two outputs per job:
 \begin{enumerate}
-    \item \textbf{Rank Data:} A sorted leaderboard of candidates with numerical scores.
-    \item \textbf{Insights Data:} Natural language justifications, identified strengths, and actionable skill gaps.
+    \item \textbf{Rank output:} a scored, sorted list of candidates.
+    \item \textbf{Insights output:} reasoning, skill gaps, and recommended next steps.
 \end{enumerate}
-Global configurations (e.g., scoring limits, API keys, chunk sizes) are dynamically injected via \texttt{pydantic-settings} from an \texttt{.env} file.
+It exposes a CLI with a strategy flag (deterministic, hybrid, llm-rag) and uses a shared schema layer to keep outputs consistent across approaches.
 
-\section{Approach 1: The Deterministic Baseline}
-The Deterministic approach acts as the foundational layer. It utilizes strict string-matching algorithms, set intersections, and hard mathematical heuristics to calculate a score out of 100.
+\section{Skill Normalization Logic}
+Normalization is applied to both candidate skills and job requirements. It provides consistent matching by removing surface-level variation in user-entered skills.
 
-\subsection{Scoring Mechanics}
-The scoring is divided into four main pillars:
+\subsection{Normalization Steps}
+\begin{enumerate}
+    \item Trim whitespace.
+    \item Lowercase all tokens.
+    \item Map aliases to canonical skills using \texttt{skill\_aliases.json}.
+    \item Remove empty strings.
+    \item Deduplicate and sort.
+\end{enumerate}
+
+\subsection{Example}
+Input: \texttt{[" React.js ", "JS", "javascript", " "]} \\ 
+Output: \texttt{["javascript", "react"]}
+
+\section{Approach 1: Deterministic}
+The deterministic engine uses set operations and explicitly defined weights to compute a 100-point score. It is optimized for speed, transparency, and predictable behavior.
+
+\subsection{Scoring Formula (Weights)}
+Weights are taken from settings:
 \begin{itemize}
-    \item \textbf{Must-Have Skills (50\%):} Pro-rated score based on the percentage of mandatory skills explicitly found in the candidate's reported skills. Missing a must-have triggers a severe algorithmic penalty multiplier (e.g., $0.25\times$ base score per missing skill) to heavily suppress underqualified candidates.
-    \item \textbf{Nice-to-Have Skills (20\%):} Additive bonus points for supplementary technologies.
-    \item \textbf{Experience Fit (25\% + 5\% Bonus):} Candidates meeting the required years of experience receive the baseline 25 points. Additional years yield bonus points (up to a capped maximum).
-    \item \textbf{Location / Availability (5\%):} Points awarded based on logistical readiness and geographic proximity to the role.
+    \item Must-have skills: 50
+    \item Nice-to-have skills: 20
+    \item Experience fit: 25
+    \item Location fit: 5
+    \item Experience bonus: up to +5 (2 points per year, capped)
 \end{itemize}
 
-\subsection{Limitations}
-While highly performant ($\approx \mathcal{O}(N)$ computational complexity), the Deterministic engine fails to capture synonyms or implicit skills. For example, a candidate listing ``SCSS'' will be falsely penalized for lacking ``CSS''.
+\subsection{Deterministic Score}
+Let:
+\begin{itemize}
+    \item $M$: number of must-have skills required.
+    \item $m_{exp}$: explicit must-have matches.
+    \item $m_{inf}$: must-have matches inferred from text.
+    \item $N$: number of nice-to-have skills required.
+    \item $n_{exp}$: explicit nice-to-have matches.
+    \item $n_{inf}$: nice-to-have matches inferred from text.
+\end{itemize}
 
-\section{Approach 2: The Hybrid Engine (Semantic Fusion)}
-To address the keyword fragility of the Deterministic approach, the Hybrid engine introduces Natural Language Processing (NLP) via dense vector embeddings.
+\noindent Must-have ratio:
+\[
+R_{must} = \frac{m_{exp} + 0.5\,m_{inf}}{M} \quad (M>0)
+\]
+\noindent Nice-to-have ratio:
+\[
+R_{nice} = \frac{n_{exp} + 0.5\,n_{inf}}{N} \quad (N>0)
+\]
 
-\subsection{Vectorization Pipeline}
-Candidates and job descriptions are converted into high-dimensional vectors using the \texttt{BAAI/bge-small-en-v1.5} embedding model via the \texttt{sentence-transformers} library. The vector representations are stored locally in a \texttt{ChromaDB} persistent instance. The system maintains an in-memory ID cache hydrated from the disk to guarantee idempotent indexups and prevent redundant re-embeddings across multiple terminal sessions.
+\noindent Score components:
+\[
+S_{must} = 50 \times R_{must}
+\]
+\[
+S_{nice} = 20 \times R_{nice}
+\]
+\[
+S_{exp} =
+\begin{cases}
+25 \times (\frac{y}{y_{req}})^2 & y < y_{req} \\
+25 + \min(2(y - y_{req}), 5) & y \ge y_{req}
+\end{cases}
+\]
+\[
+S_{loc} \in \{0, 2.5, 5\} \text{ depending on remote/match/relocation}
+\]
 
-\subsection{Score Blending}
-The Hybrid engine evaluates the candidate using the Deterministic logic, calculates the \textbf{Cosine Similarity} between the candidate's vector and the job's vector, and fuses the two scores mathematically:
-\[ S_{hybrid} = (W_{det} \times S_{det}) + (W_{sem} \times S_{cos}) \]
-Where $W_{det}$ (e.g., 0.7) and $W_{sem}$ (e.g., 0.3) are configurable weight parameters. This allows the system to algebraically rescue highly relevant candidates who suffer from poor keyword optimization.
+\noindent Penalty multiplier if must-haves are missing:
+\[
+S_{final} = (S_{must}+S_{nice}+S_{exp}+S_{loc}) \times R_{must}
+\]
 
-\section{Approach 3: The Agentic Engine (LLM Re-Ranking)}
-The pinnacle of the matching engine is the Agentic approach, which leverages Large Language Models (LLMs) to perform deep contextual reasoning, akin to a human recruiter.
+\noindent Status penalty (availability intent):
+\[
+S_{final} = S_{final} \times \begin{cases}
+0.50 & \text{not looking} \\
+0.90 & \text{open to offers / interviewing} \\
+1.00 & \text{otherwise}
+\end{cases}
+\]
 
-\subsection{Phase 1: Hybrid Retrieval (Top-K)}
-To prevent overwhelming the LLM's context window and to optimize API costs, the Agentic engine utilizes the Hybrid approach as a high-speed pre-retrieval mechanism. Only the top $K$ candidates (configurable via CLI flag) are passed to the next phase.
+\subsection{Output Snippet (Deterministic)}
+\begin{lstlisting}
+{
+  "candidateId": "c-001",
+  "score": 45.56,
+  "matchedSkills": ["python", "sql"],
+  "missingMustHaveSkills": [],
+  "missingNiceToHaveSkills": ["aws"],
+  "summary": "Potential match. Meets experience requirements. Matches all core must-have requirements. (1 missing skill(s) were rescued by scanning experience/projects)."
+}
+\end{lstlisting}
 
-\subsection{Phase 2: LLM Evaluation and JSON Enforcement}
-The top candidates are passed to an LLM (e.g., Llama-3 via the Groq API). A strict \texttt{system\_prompt} is injected, explicitly defining the 100-point limit boundaries (50 must-have, 25 experience, etc.) to ensure mathematical consistency with the Deterministic baseline. 
-The LLM is forced to output a deeply nested JSON schema validated by \texttt{pydantic}. It dynamically infers skills (e.g., recognizing that building an authentication system implies knowledge of specific libraries), scores the candidates, and generates actionable "Next Steps" for candidate upskilling.
+\section{Approach 2: Hybrid}
+The hybrid engine blends deterministic scoring with semantic similarity from embeddings. It is designed to reduce false negatives caused by keyword gaps and to capture semantic similarity across contexts.
 
-\subsection{Fault Tolerance}
-Because massive batch processing can trigger LLM token limits or JSON truncation, the schema safely implements \texttt{Optional} fallback structures for deep insights. In the event of total API failure, the orchestration layer intercepts the error and elegantly falls back to the Hybrid engine outputs.
+\subsection{Embedding Pipeline}
+\begin{itemize}
+    \item Model: \texttt{BAAI/bge-small-en-v1.5}
+    \item Storage: \texttt{ChromaDB} (persistent)
+    \item Similarity: cosine similarity $\in [0, 1]$
+\end{itemize}
+
+\subsection{Hybrid Score Formula}
+\[
+S_{hybrid} = (W_{det} \times S_{det}) + (W_{sem} \times (100 \times \text{cosine}))
+\]
+Default weights are $W_{det}=1.0$, $W_{sem}=0.0$, and are overridden when the hybrid approach is selected.
+
+\subsection{Output Snippet (Hybrid)}
+\begin{lstlisting}
+{
+  "candidateId": "c-002",
+  "score": 73.24,
+  "reasons": [
+    {"type": "semantic_similarity", "weight": 18.0}
+  ]
+}
+\end{lstlisting}
+
+\section{Approach 3: LLM + RAG Ranking}
+The LLM + RAG engine uses a hybrid retriever and an LLM re-ranker to produce structured insights and refined scores. It is optimized for maximum semantic accuracy and human-like reasoning.
+
+\subsection{Two-Phase Flow}
+\begin{enumerate}
+    \item \textbf{Hybrid Top-K:} A fast hybrid pre-filter selects the top candidates.
+    \item \textbf{LLM Re-Rank:} The LLM evaluates each candidate, enforcing the same scoring constraints and schema validation via Pydantic.
+\end{enumerate}
+
+\subsection{Output Snippet (LLM + RAG)}
+\begin{lstlisting}
+{
+  "candidateId": "c-003",
+  "score": 88.5,
+  "insights": {
+    "strengths": ["Strong foundational alignment in backend stack."],
+    "skillGaps": {"mustHave": [], "niceToHave": ["kafka"]},
+    "recommendedNextSteps": ["Upskill Opportunity (KAFKA): Build a small event-driven pipeline."]
+  }
+}
+\end{lstlisting}
 
 \section{Comparative Analysis}
-
 \begin{table}[h]
 \centering
 \begin{tabular}{@{}lccc@{}}
-\toprule
-\textbf{Metric} & \textbf{Deterministic} & \textbf{Hybrid} & \textbf{Agentic} \\ \midrule
-\textbf{Processing Speed} & Instantaneous & Fast (CPU/GPU bound) & API Latency Dependent \\
-\textbf{Computational Cost} & Zero & Low (Local Embeddings) & High (API Tokens) \\
-\textbf{Semantic Awareness} & None & High (Similarity) & Maximum (Contextual) \\
-\textbf{Explainability} & Transparent Math & Black-Box Vectors & Natural Language Justifications \\
-\textbf{Implicit Skill Detection} & Fails & Moderate & Excellent \\ \bottomrule
+	oprule
+	extbf{Metric} & \textbf{Deterministic} & \textbf{Hybrid} & \textbf{LLM + RAG} \\ \midrule
+Latency & Very Low & Low--Medium & High (API dependent) \\
+Cost & Minimal & Low (embedding compute) & High (token usage) \\
+Explainability & High & Medium & High (natural language) \\
+Implicit Skill Detection & Low & Medium & High \\
+Failure Modes & Keyword misses & Embedding drift & API/JSON failures \\
+Best Use Case & Fast filtering & Default ranking & Final shortlists \\ \bottomrule
 \end{tabular}
-\caption{Comparison of Candidate Evaluation Engines}
+\caption{Comparison of the three approaches}
 \end{table}
 
-\subsection{Conclusion and Best Practices}
-The multi-tiered architecture provides unparalleled flexibility. The \textbf{Deterministic} approach is ideal for rapid, strict pipeline filtering. The \textbf{Hybrid} approach offers the best balance of speed and semantic leniency, serving as the optimal default. Finally, the \textbf{Agentic} approach represents state-of-the-art matching accuracy, best reserved for final-stage shortlists where deep, human-like insight generation adds the highest value.
+\section{Trade-Offs}
+\begin{itemize}
+    \item \textbf{Deterministic:} Fast and transparent, but brittle to synonyms and context.
+    \item \textbf{Hybrid:} Better recall and semantic matching, but adds embedding cost and complexity.
+    \item \textbf{LLM + RAG:} Highest quality insights and reasoning, but slower and costlier with API dependency.
+\end{itemize}
+
+\section{Next Improvements}
+\begin{itemize}
+  \item Cache LLM results.
+  \item Optimize the system prompt.
+  \item Let the LLM self-reoptimize weights per job.
+\end{itemize}
+
+\section{Time Spent Estimate}
+\begin{itemize}
+    \item Deterministic approach: 3 hours
+    \item Hybrid approach: 1.5 hours
+    \item LLM + RAG approach: 1.5 hours
+\end{itemize}
 
 \end{document}

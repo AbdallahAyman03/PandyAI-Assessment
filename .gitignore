@@ -8,3 +8,10 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment files
+.env
+app/.env
+
+# Vector DB cache
+app/data/chroma_db/
