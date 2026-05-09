@@ -19,7 +19,7 @@ class Settings(BaseSettings):
 
     # EXPERIENCE CURVE CONFIG
     exp_bonus_per_year: float = 2.0
-    exp_max_bonus: float = 5.0
+    exp_max_bonus: float = 6.0
 
     # HYBRID SCORING WEIGHTS (overridden per-approach at runtime)
     weight_deterministic: float = 1.0
