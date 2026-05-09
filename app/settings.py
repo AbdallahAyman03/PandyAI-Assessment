@@ -25,7 +25,7 @@ class Settings(BaseSettings):
     weight_deterministic: float = 1.0
     weight_semantic: float = 0.0
 
-    # GROQ API KEY (required for Agentic approach)
+    # GROQ API KEY (required for LLM + RAG approach)
     groq_api_key: Optional[str] = None
     llm_model: str = "openai/gpt-oss-120b"
 

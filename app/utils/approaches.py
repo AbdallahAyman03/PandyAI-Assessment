@@ -3,9 +3,9 @@ Approach orchestration module.
 
 Exposes run_approach() and explain_approach() which route to the three engines:
 
-  1. "deterministic"  – Pure O(1) math, no ML dependencies (fastest, purest).
-  2. "hybrid"         – 70% deterministic + 30% local semantic via ChromaDB/BGE.
-  3. "agentic"        – Hybrid retriever → Groq/Llama-3 LLM re-ranker (deepest).
+    1. "deterministic"  – Pure O(1) math, no ML dependencies (fastest, purest).
+    2. "hybrid"         – 70% deterministic + 30% local semantic via ChromaDB/BGE.
+    3. "llm-rag"        – Hybrid retriever → LLM + RAG re-ranking (deepest).
 """
 from typing import List, Dict, Any, Optional
 
@@ -13,16 +13,14 @@ from app.schemas.candidate import Candidate
 from app.schemas.job import Job
 from app.utils.scorer import rank_candidates, score_candidate
 
-VALID_APPROACHES = ["deterministic", "hybrid", "agentic"]
+VALID_APPROACHES = ["deterministic", "hybrid", "llm-rag"]
 
-# Blend weights used for both Hybrid and the retrieval phase of Agentic
+# Blend weights used for both Hybrid and the retrieval phase of LLM + RAG
 _HYBRID_W_DET: float = 0.70
 _HYBRID_W_SEM: float = 0.30
 
 
-# ============================================================
 # PUBLIC INTERFACE
-# ============================================================
 
 def run_approach(
     approach: str,
@@ -39,8 +37,8 @@ def run_approach(
         return _run_deterministic(candidates, job, top_k)
     elif approach == "hybrid":
         return _run_hybrid(candidates, job, top_k)
-    elif approach == "agentic":
-        return _run_agentic(candidates, job, top_k)
+    elif approach == "llm-rag":
+        return _run_llm_rag(candidates, job, top_k)
     else:
         raise ValueError(
             f"Unknown approach '{approach}'. "
@@ -58,7 +56,7 @@ def explain_approach(
     Return a score + full reasoning dict for a *single* candidate.
     Used by app.explain for the terminal report.
 
-    all_candidates is used by hybrid/agentic to populate ChromaDB with
+    all_candidates is used by hybrid/llm-rag to populate ChromaDB with
     the full candidate pool before querying, giving more accurate rankings.
     """
     approach = approach.lower()
@@ -71,8 +69,8 @@ def explain_approach(
         )
     elif approach == "hybrid":
         return _explain_hybrid(candidate, job, all_candidates)
-    elif approach == "agentic":
-        return _explain_agentic(candidate, job, all_candidates)
+    elif approach == "llm-rag":
+        return _explain_llm_rag(candidate, job, all_candidates)
     else:
         raise ValueError(
             f"Unknown approach '{approach}'. "
@@ -80,9 +78,7 @@ def explain_approach(
         )
 
 
-# ============================================================
 # APPROACH 1 – DETERMINISTIC
-# ============================================================
 
 def _run_deterministic(
     candidates: List[Candidate],
@@ -98,9 +94,7 @@ def _run_deterministic(
     )
 
 
-# ============================================================
 # APPROACH 2 – HYBRID
-# ============================================================
 
 def _run_hybrid(
     candidates: List[Candidate],
@@ -146,11 +140,9 @@ def _explain_hybrid(
     )
 
 
-# ============================================================
-# APPROACH 3 – AGENTIC RAG
-# ============================================================
+# APPROACH 3 – LLM + RAG RANKING
 
-def _run_agentic(
+def _run_llm_rag(
     candidates: List[Candidate],
     job: Job,
     top_k: Optional[int] = None,
@@ -167,7 +159,7 @@ def _run_agentic(
     retrieval_k = (top_k * 2) if top_k else len(candidates)
 
     # Phase 1 – Hybrid retrieval
-    print("  [Agentic] Phase 1 – Hybrid retriever running...")
+    print("  [LLM+RAG] Phase 1 – Hybrid retriever running...")
     index_candidates(candidates)
     hybrid_results = rank_candidates(
         candidates, job,
@@ -181,14 +173,14 @@ def _run_agentic(
 
     # Phase 2 – LLM re-ranker
     print(
-        f"  [Agentic] Phase 2 – Groq LLM evaluating "
+        f"  [LLM+RAG] Phase 2 – LLM evaluating "
         f"{len(top_candidates)} candidates..."
     )
     llm_evals = generate_ai_rerank_and_insights(job, top_candidates)
 
     if not llm_evals:
         print(
-            "  [Agentic] LLM returned no evaluations. "
+            "  [LLM+RAG] LLM returned no evaluations. "
             "Falling back to Hybrid results."
         )
         return hybrid_results[:top_k] if top_k else hybrid_results
@@ -218,7 +210,7 @@ def _run_agentic(
     return results[:top_k] if top_k else results
 
 
-def _explain_agentic(
+def _explain_llm_rag(
     candidate: Candidate,
     job: Job,
     all_candidates: Optional[List[Candidate]] = None,
@@ -231,10 +223,10 @@ def _explain_agentic(
     from app.utils.llm_reranker import generate_ai_rerank_and_insights
 
     pool = all_candidates or [candidate]
-    print("  [Agentic] Ensuring candidates are indexed in ChromaDB...")
+    print("  [LLM+RAG] Ensuring candidates are indexed in ChromaDB...")
     index_candidates(pool)
 
-    print("  [Agentic] Querying Groq LLM for deep single-candidate explanation...")
+    print("  [LLM+RAG] Querying LLM for deep single-candidate explanation...")
     llm_evals = generate_ai_rerank_and_insights(job, [candidate])
 
     if llm_evals and candidate.id in llm_evals:
@@ -253,7 +245,7 @@ def _explain_agentic(
         }
 
     # Fallback – hybrid
-    print("  [Agentic] LLM evaluation failed. Falling back to Hybrid.")
+    print("  [LLM+RAG] LLM evaluation failed. Falling back to Hybrid.")
     semantic_scores = get_semantic_scores(job, top_k=len(pool))
     cand_sem = semantic_scores.get(candidate.id, 0.0)
     return score_candidate(

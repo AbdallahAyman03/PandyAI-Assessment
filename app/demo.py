@@ -27,7 +27,7 @@ def main():
 
     print(f"Loaded {len(jobs)} jobs and {len(candidates)} candidates.\n")
 
-    if args.approach in ["hybrid", "agentic"]:
+    if args.approach in ["hybrid", "llm-rag"]:
         print("Pre-indexing all candidates for semantic search...")
         index_candidates(candidates)
     

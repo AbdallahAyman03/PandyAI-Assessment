@@ -19,9 +19,6 @@ from app.settings import config
 
 logging.basicConfig(level=logging.INFO)
 
-# ==========================================
-# 1. TEXT AGGREGATION PIPELINE
-# ==========================================
 
 
 def get_candidate_text(candidate: Candidate) -> str:
@@ -64,10 +61,6 @@ def get_job_text(job: Job) -> str:
     return dense_text
 
 
-# ==========================================
-# 2. LAZY EMBEDDING MODEL & DB CONFIG
-# ==========================================
-
 
 class BGEEmbeddingFunction(EmbeddingFunction):
     """
@@ -91,13 +84,10 @@ class BGEEmbeddingFunction(EmbeddingFunction):
         return embeddings.tolist()
 
 
-# --- Lazy singletons ---
 _embedding_fn: "BGEEmbeddingFunction | None" = None
 _chroma_client: "chromadb.PersistentClient | None" = None
 _collection = None
 
-# Track which candidate IDs have been upserted in this process session
-# to avoid redundant re-embedding when the same candidates are passed multiple times.
 _indexed_candidate_ids: set = set()
 
 
@@ -130,10 +120,6 @@ def _get_collection():
             
     return _collection
 
-
-# ==========================================
-# 3. VECTOR DB OPERATIONS
-# ==========================================
 
 
 def index_candidates(candidates: List[Candidate]) -> None:

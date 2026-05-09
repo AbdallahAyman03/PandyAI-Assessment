@@ -50,7 +50,7 @@ def generate_ai_rerank_and_insights(job: Job, top_candidates: List[Candidate]) -
     client = Groq(api_key=config.groq_api_key)
     job_text, cands_text = _serialize_for_llm(job, top_candidates)
 
-    # 1. Dynamically extract the JSON schema from Pydantic
+    # Dynamically extract the JSON schema from Pydantic
     schema_json = json.dumps(LLMRerankResponse.model_json_schema(), indent=2)
 
     system_prompt = f"""
@@ -73,7 +73,7 @@ def generate_ai_rerank_and_insights(job: Job, top_candidates: List[Candidate]) -
     user_prompt = f"JOB DESCRIPTION:\n{job_text}\n\nCANDIDATES TO EVALUATE:\n{cands_text}"
 
     try:
-        logging.info(f"🚀 Calling Groq API ({config.llm_model}) to evaluate {len(top_candidates)} candidates...")
+        logging.info(f"Calling Groq API ({config.llm_model}) to evaluate {len(top_candidates)} candidates...")
         response = client.chat.completions.create(
             model=config.llm_model,
             messages=[
@@ -86,11 +86,8 @@ def generate_ai_rerank_and_insights(job: Job, top_candidates: List[Candidate]) -
         
         raw_json = response.choices[0].message.content
         
-        # 2. THE MAGIC: Pydantic instantly validates the LLM's raw string 
-        # against all your types, lists, and required fields.
         validated_response = LLMRerankResponse.model_validate_json(raw_json)
         
-        # 3. Convert it back to a standard Python dictionary for the CLI to use
         return validated_response.model_dump()['evaluations']
         
     except Exception as e:
