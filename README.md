@@ -142,6 +142,9 @@ Run batch ranking:
 Explain a single candidate:
 - python -m app.explain --job-id j-001 --candidate-id c-001 --approach llm-rag
 
+Run tests:
+- python -m unittest discover -s tests
+
 Outputs:
 - Results are written to outputs/{approach}/rank and outputs/{approach}/insights
 
