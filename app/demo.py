@@ -1,14 +1,21 @@
+import argparse
 import sys
 import json
 from datetime import datetime, timezone
 
 from app.utils.parser import load_jobs, load_candidates
-from app.utils.scorer import rank_candidates
+from app.utils.approaches import run_approach, VALID_APPROACHES
 from app.settings import config
+from app.utils.embedding import index_candidates
 
 def main():
+    parser = argparse.ArgumentParser(description="Run batch matching process.")
+    parser.add_argument("--approach", choices=VALID_APPROACHES, default="deterministic", help="Analytical approach to use")
+    parser.add_argument("--top-k", type=int, default=5, help="Number of top candidates to rank per job")
+    args = parser.parse_args()
+
     print("="*50)
-    print(" INITIATING BATCH MATCHING PROCESS")
+    print(f" INITIATING BATCH MATCHING PROCESS ({args.approach.upper()})")
     print("="*50)
 
     jobs = load_jobs()
@@ -20,9 +27,13 @@ def main():
 
     print(f"Loaded {len(jobs)} jobs and {len(candidates)} candidates.\n")
 
+    if args.approach in ["hybrid", "agentic"]:
+        print("Pre-indexing all candidates for semantic search...")
+        index_candidates(candidates)
     
-    rank_dir = config.output_dir / "rank"
-    insights_dir = config.output_dir / "insights"
+    approach_dir = config.output_dir / args.approach
+    rank_dir = approach_dir / "rank"
+    insights_dir = approach_dir / "insights"
     
     rank_dir.mkdir(parents=True, exist_ok=True)
     insights_dir.mkdir(parents=True, exist_ok=True)
@@ -33,7 +44,7 @@ def main():
     for job in jobs:
         print(f"Processing: {job.title} ({job.id})")
         
-        ranked_results = rank_candidates(candidates, job)
+        ranked_results = run_approach(args.approach, candidates, job, top_k=args.top_k)
         
         # --- SPLIT THE DATA ---
         rank_output_list = []
@@ -54,19 +65,20 @@ def main():
 
         rank_payload = {
             "jobId": job.id,
+            "approach": args.approach,
             "topK": len(ranked_results),
             "results": rank_output_list,
-            "meta": { "approach": "baseline-v1", "generatedAt": timestamp }
+            "meta": { "approach": args.approach, "generatedAt": timestamp }
         }
 
         insights_payload = {
             "jobId": job.id,
+            "approach": args.approach,
             "topK": len(ranked_results),
             "results": insights_output_list,
-            "meta": { "approach": "baseline-v1-insights", "generatedAt": timestamp }
+            "meta": { "approach": f"{args.approach}-insights", "generatedAt": timestamp }
         }
 
-        
         rank_file = rank_dir / f"{job.id}.json"
         insights_file = insights_dir / f"{job.id}.json"
         
@@ -81,7 +93,7 @@ def main():
 
     print("\n" + "="*50)
     print(f" BATCH COMPLETE: Successfully generated {success_count * 2} files.")
-    print(f" Check the '{rank_dir.parent.resolve()}' directory.")
+    print(f" Check the '{approach_dir.resolve()}' directory.")
     print("="*50)
 
 if __name__ == "__main__":

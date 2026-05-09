@@ -1,0 +1,125 @@
+{
+  "jobId": "j-003",
+  "approach": "agentic",
+  "topK": 2,
+  "results": [
+    {
+      "candidateId": "c-001",
+      "candidateName": "Lina Hassan",
+      "score": 85.0,
+      "matchedSkills": [
+        "accessibility",
+        "react",
+        "storybook",
+        "typescript",
+        "design tokens"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "css modules",
+        "monorepos",
+        "visual regression testing"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Has accessibility",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has react",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has storybook",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has typescript",
+          "weight": 12.5
+        },
+        {
+          "type": "experience_match",
+          "evidence": "4.0 years meets required 4.0 years",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Inferred design tokens from context",
+          "weight": 5.0
+        },
+        {
+          "type": "availability",
+          "evidence": "Open to work, indicating availability",
+          "weight": 5.0
+        }
+      ],
+      "summary": "Strong fit with all must‑have skills and relevant design‑token experience.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-007",
+      "candidateName": "Nour Adel",
+      "score": 85.0,
+      "matchedSkills": [
+        "accessibility",
+        "react",
+        "storybook",
+        "typescript",
+        "design tokens"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "css modules",
+        "monorepos",
+        "visual regression testing"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Has accessibility",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has react",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has storybook",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has typescript",
+          "weight": 12.5
+        },
+        {
+          "type": "experience_match",
+          "evidence": "4.0 years meets required 4.0 years",
+          "weight": 25.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Inferred design tokens from context",
+          "weight": 5.0
+        },
+        {
+          "type": "availability",
+          "evidence": "Open to work, indicating availability",
+          "weight": 5.0
+        }
+      ],
+      "summary": "Excellent match; fulfills all must‑haves and brings design‑token expertise.",
+      "availability": "2 weeks"
+    }
+  ],
+  "meta": {
+    "approach": "agentic",
+    "generatedAt": "2026-05-08T11:42:31.058455Z"
+  }
+}

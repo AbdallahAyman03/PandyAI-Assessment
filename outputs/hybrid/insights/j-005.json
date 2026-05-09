@@ -1,5 +1,6 @@
 {
   "jobId": "j-005",
+  "approach": "hybrid",
   "topK": 30,
   "results": [
     {
@@ -8,9 +9,9 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 3.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, forms, typescript.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript.",
           "Demonstrated practical exposure: Evidence of forms found within project and experience history.",
-          "Provides immediate bonus value with nice-to-have skills like error handling, zod, react hook form."
+          "Provides immediate bonus value with nice-to-have skills like react hook form, error handling, zod."
         ],
         "skillGaps": {
           "mustHave": [],
@@ -24,70 +25,22 @@
       }
     },
     {
-      "candidateId": "c-030",
-      "candidateName": "Amr Fekry",
-      "insights": {
-        "strengths": [
-          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "forms"
-          ],
-          "niceToHave": [
-            "zod",
-            "error handling",
-            "vitest",
-            "react hook form"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-023",
-      "candidateName": "Rania Ayman",
-      "insights": {
-        "strengths": [
-          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "forms"
-          ],
-          "niceToHave": [
-            "zod",
-            "error handling",
-            "vitest",
-            "react hook form"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
-        ]
-      }
-    },
-    {
       "candidateId": "c-028",
       "candidateName": "Khaled Nassar",
       "insights": {
         "strengths": [
           "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, forms, typescript."
+          "Strong foundational alignment: Proven capability in core job requirements including forms, react, typescript."
         ],
         "skillGaps": {
           "mustHave": [
             "accessibility"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
@@ -101,17 +54,17 @@
       "insights": {
         "strengths": [
           "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
         ],
         "skillGaps": {
           "mustHave": [
             "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
@@ -125,41 +78,17 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 4.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
         ],
         "skillGaps": {
           "mustHave": [
             "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-007",
-      "candidateName": "Nour Adel",
-      "insights": {
-        "strengths": [
-          "Meets the baseline experience requirement with 4.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "forms"
-          ],
-          "niceToHave": [
-            "zod",
-            "error handling",
-            "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
@@ -173,17 +102,41 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 4.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
         ],
         "skillGaps": {
           "mustHave": [
             "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-007",
+      "candidateName": "Nour Adel",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "forms"
+          ],
+          "niceToHave": [
+            "react hook form",
+            "error handling",
+            "vitest",
+            "zod"
           ]
         },
         "recommendedNextSteps": [
@@ -197,17 +150,41 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 3.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
         ],
         "skillGaps": {
           "mustHave": [
             "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "forms"
+          ],
+          "niceToHave": [
+            "react hook form",
+            "error handling",
+            "vitest",
+            "zod"
           ]
         },
         "recommendedNextSteps": [
@@ -221,7 +198,7 @@
       "insights": {
         "strengths": [
           "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, forms, typescript.",
+          "Strong foundational alignment: Proven capability in core job requirements including forms, react, typescript.",
           "Demonstrated practical exposure: Evidence of forms found within project and experience history."
         ],
         "skillGaps": {
@@ -229,10 +206,10 @@
             "accessibility"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
@@ -246,7 +223,7 @@
       "insights": {
         "strengths": [
           "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript.",
           "Demonstrated practical exposure: Evidence of accessibility found within project and experience history."
         ],
         "skillGaps": {
@@ -254,10 +231,10 @@
             "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
@@ -271,7 +248,7 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 4.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript.",
           "Demonstrated practical exposure: Evidence of accessibility found within project and experience history."
         ],
         "skillGaps": {
@@ -279,10 +256,10 @@
             "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
@@ -301,122 +278,18 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "forms",
-            "accessibility"
+            "accessibility",
+            "forms"
           ],
           "niceToHave": [
-            "zod",
-            "error handling",
-            "react hook form"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-026",
-      "candidateName": "Hossam Yasser",
-      "insights": {
-        "strengths": [
-          "Meets the baseline experience requirement with 3.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
-          "Provides immediate bonus value with nice-to-have skills like error handling."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "forms",
-            "accessibility"
-          ],
-          "niceToHave": [
-            "zod",
             "react hook form",
-            "vitest"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-004",
-      "candidateName": "Youssef Abdelrahman",
-      "insights": {
-        "strengths": [
-          "Highly experienced: Brings 6.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "forms",
-            "accessibility"
-          ],
-          "niceToHave": [
-            "zod",
             "error handling",
-            "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-021",
-      "candidateName": "Hany Gamal",
-      "insights": {
-        "strengths": [
-          "Highly experienced: Brings 6.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "forms",
-            "accessibility"
-          ],
-          "niceToHave": [
-            "zod",
-            "error handling",
-            "vitest",
-            "react hook form"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-005",
-      "candidateName": "Mariam Fathy",
-      "insights": {
-        "strengths": [
-          "Meets the baseline experience requirement with 4.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
-          "Provides immediate bonus value with nice-to-have skills like react hook form."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "forms",
-            "accessibility"
-          ],
-          "niceToHave": [
-            "zod",
-            "error handling",
-            "vitest"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
         ]
       }
     },
@@ -431,18 +304,70 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "forms",
-            "accessibility"
+            "accessibility",
+            "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-004",
+      "candidateName": "Youssef Abdelrahman",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 6.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "forms"
+          ],
+          "niceToHave": [
+            "react hook form",
+            "error handling",
+            "vitest",
+            "zod"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-005",
+      "candidateName": "Mariam Fathy",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like react hook form."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "forms"
+          ],
+          "niceToHave": [
+            "error handling",
+            "vitest",
+            "zod"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
         ]
       }
     },
@@ -457,18 +382,122 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "forms",
-            "accessibility"
+            "accessibility",
+            "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-021",
+      "candidateName": "Hany Gamal",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 6.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "forms"
+          ],
+          "niceToHave": [
+            "react hook form",
+            "error handling",
+            "vitest",
+            "zod"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-010",
+      "candidateName": "Ahmed Saad",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "forms"
+          ],
+          "niceToHave": [
+            "react hook form",
+            "error handling",
+            "vitest",
+            "zod"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-026",
+      "candidateName": "Hossam Yasser",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 3.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like error handling."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "forms"
+          ],
+          "niceToHave": [
+            "react hook form",
+            "vitest",
+            "zod"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-008",
+      "candidateName": "Hassan Magdy",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "forms"
+          ],
+          "niceToHave": [
+            "react hook form",
+            "error handling",
+            "vitest",
+            "zod"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
         ]
       }
     },
@@ -483,18 +512,18 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "forms",
-            "accessibility"
+            "accessibility",
+            "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
         ]
       }
     },
@@ -508,71 +537,43 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "forms",
-            "accessibility"
+            "accessibility",
+            "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
         ]
       }
     },
     {
-      "candidateId": "c-010",
-      "candidateName": "Ahmed Saad",
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
       "insights": {
         "strengths": [
-          "Meets the baseline experience requirement with 4.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
         ],
         "skillGaps": {
           "mustHave": [
-            "forms",
-            "accessibility"
+            "forms"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-008",
-      "candidateName": "Hassan Magdy",
-      "insights": {
-        "strengths": [
-          "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "forms",
-            "accessibility"
-          ],
-          "niceToHave": [
-            "zod",
-            "error handling",
-            "vitest",
-            "react hook form"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
         ]
       }
     },
@@ -582,23 +583,23 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 3.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, accessibility."
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react."
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
-            "forms"
+            "forms",
+            "typescript"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
-          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
+          "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types."
         ]
       }
     },
@@ -607,8 +608,8 @@
       "candidateName": "Dina Ashraf",
       "insights": {
         "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react, forms, accessibility.",
-          "Demonstrated practical exposure: Evidence of forms, accessibility found within project and experience history.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, forms.",
+          "Demonstrated practical exposure: Evidence of accessibility, forms found within project and experience history.",
           "Provides immediate bonus value with nice-to-have skills like vitest."
         ],
         "skillGaps": {
@@ -616,9 +617,9 @@
             "typescript"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
@@ -638,18 +639,18 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
+            "accessibility",
             "forms",
-            "accessibility"
+            "typescript"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
           "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
         ]
       }
@@ -664,19 +665,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
+            "accessibility",
             "forms",
-            "accessibility"
+            "typescript"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
           "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates."
         ]
       }
@@ -691,18 +692,18 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
+            "accessibility",
             "forms",
-            "accessibility"
+            "typescript"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
           "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
           "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
@@ -717,19 +718,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
+            "accessibility",
             "forms",
-            "accessibility"
+            "typescript"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
           "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
           "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
@@ -744,19 +745,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
+            "accessibility",
             "forms",
-            "accessibility"
+            "typescript"
           ],
           "niceToHave": [
-            "zod",
+            "react hook form",
             "error handling",
             "vitest",
-            "react hook form"
+            "zod"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
           "Critical Gap (FORMS): Design an accessible, validated form that handles asynchronous submission, error states, and optimistic UI updates.",
           "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
@@ -764,7 +765,7 @@
     }
   ],
   "meta": {
-    "approach": "baseline-v1-insights",
-    "generatedAt": "2026-05-05T22:06:03.726073Z"
+    "approach": "hybrid-insights",
+    "generatedAt": "2026-05-08T11:09:51.075656Z"
   }
 }

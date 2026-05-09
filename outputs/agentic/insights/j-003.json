@@ -1,0 +1,10 @@
+{
+  "jobId": "j-003",
+  "approach": "agentic",
+  "topK": 2,
+  "results": [],
+  "meta": {
+    "approach": "agentic-insights",
+    "generatedAt": "2026-05-08T11:42:31.058455Z"
+  }
+}

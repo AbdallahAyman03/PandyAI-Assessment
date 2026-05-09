@@ -1,0 +1,773 @@
+{
+  "jobId": "j-003",
+  "approach": "hybrid",
+  "topK": 30,
+  "results": [
+    {
+      "candidateId": "c-001",
+      "candidateName": "Lina Hassan",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like design tokens."
+        ],
+        "skillGaps": {
+          "mustHave": [],
+          "niceToHave": [
+            "css modules",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions.",
+          "Upskill Opportunity (VISUAL REGRESSION TESTING): Integrate a visual regression tool to automatically detect unexpected CSS changes across different viewports."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-007",
+      "candidateName": "Nour Adel",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like design tokens."
+        ],
+        "skillGaps": {
+          "mustHave": [],
+          "niceToHave": [
+            "css modules",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions.",
+          "Upskill Opportunity (VISUAL REGRESSION TESTING): Integrate a visual regression tool to automatically detect unexpected CSS changes across different viewports."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-014",
+      "candidateName": "Mohamed Hany",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript.",
+          "Demonstrated practical exposure: Evidence of accessibility found within project and experience history."
+        ],
+        "skillGaps": {
+          "mustHave": [],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions.",
+          "Upskill Opportunity (DESIGN TOKENS): Extract hardcoded CSS hex values and spacing units into a centralized JSON design token system."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-018",
+      "candidateName": "Heba Salah",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-027",
+      "candidateName": "Rawan Tamer",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 4.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like design tokens, monorepos."
+        ],
+        "skillGaps": {
+          "mustHave": [],
+          "niceToHave": [
+            "css modules",
+            "visual regression testing"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions.",
+          "Upskill Opportunity (VISUAL REGRESSION TESTING): Integrate a visual regression tool to automatically detect unexpected CSS changes across different viewports."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 4.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-004",
+      "candidateName": "Youssef Abdelrahman",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 6.0 years of background, significantly exceeding the 4.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, storybook.",
+          "Demonstrated practical exposure: Evidence of storybook found within project and experience history.",
+          "Provides immediate bonus value with nice-to-have skills like css modules."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility"
+          ],
+          "niceToHave": [
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-011",
+      "candidateName": "Mai Sherif",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-020",
+      "candidateName": "Aya Khaled",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-024",
+      "candidateName": "Eslam Samir",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react, typescript.",
+          "Demonstrated practical exposure: Evidence of accessibility found within project and experience history."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-028",
+      "candidateName": "Khaled Nassar",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-021",
+      "candidateName": "Hany Gamal",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 6.0 years of background, significantly exceeding the 4.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-010",
+      "candidateName": "Ahmed Saad",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-008",
+      "candidateName": "Hassan Magdy",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-006",
+      "candidateName": "Kareem Mostafa",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-005",
+      "candidateName": "Mariam Fathy",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-012",
+      "candidateName": "Tarek Hamdi",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-015",
+      "candidateName": "Reem Hossam",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-016",
+      "candidateName": "Adham Ehab",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-019",
+      "candidateName": "Mostafa Rashed",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 4.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-026",
+      "candidateName": "Hossam Yasser",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-025",
+      "candidateName": "Nada Mahmoud",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-003",
+      "candidateName": "Sara Nabil",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-009",
+      "candidateName": "Dina Ashraf",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react.",
+          "Demonstrated practical exposure: Evidence of accessibility found within project and experience history."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
+          "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-002",
+      "candidateName": "Omar El-Sayed",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "typescript",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-013",
+      "candidateName": "Salma Emad",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "typescript",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-017",
+      "candidateName": "Farah Mounir",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "typescript",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-029",
+      "candidateName": "Yara Mahmoud",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "typescript",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-022",
+      "candidateName": "Nada Younis",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "accessibility",
+            "typescript",
+            "storybook"
+          ],
+          "niceToHave": [
+            "css modules",
+            "design tokens",
+            "visual regression testing",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "approach": "hybrid-insights",
+    "generatedAt": "2026-05-08T11:09:51.075656Z"
+  }
+}

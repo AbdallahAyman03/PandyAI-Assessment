@@ -1,0 +1,126 @@
+{
+  "jobId": "j-004",
+  "approach": "agentic",
+  "topK": 2,
+  "results": [
+    {
+      "candidateId": "c-005",
+      "candidateName": "Mariam Fathy",
+      "score": 89.0,
+      "matchedSkills": [
+        "data visualization",
+        "react",
+        "typescript",
+        "d3",
+        "performance",
+        "recharts"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "react query",
+        "url state"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Has data visualization skill inferred from context",
+          "weight": 16.66
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has React",
+          "weight": 16.67
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has TypeScript",
+          "weight": 16.67
+        },
+        {
+          "type": "experience",
+          "evidence": "4 years experience meets 3‑year minimum",
+          "weight": 22.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Has D3",
+          "weight": 4.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Demonstrates performance optimization (skeletons, progressive rendering)",
+          "weight": 4.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Has Recharts",
+          "weight": 4.0
+        },
+        {
+          "type": "location",
+          "evidence": "Open to work (full availability)",
+          "weight": 5.0
+        }
+      ],
+      "summary": "Strong fit with all must‑haves and several nice‑to‑haves.",
+      "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-021",
+      "candidateName": "Hany Gamal",
+      "score": 62.34,
+      "matchedSkills": [
+        "react",
+        "typescript",
+        "react query"
+      ],
+      "missingMustHaveSkills": [
+        "data visualization"
+      ],
+      "missingNiceToHaveSkills": [
+        "d3",
+        "performance",
+        "recharts",
+        "url state"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Has React",
+          "weight": 16.67
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has TypeScript",
+          "weight": 16.67
+        },
+        {
+          "type": "must_have_missing_penalty",
+          "evidence": "Lacks data visualization experience",
+          "weight": -10.0
+        },
+        {
+          "type": "experience",
+          "evidence": "6 years experience exceeds minimum",
+          "weight": 30.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Has React Query",
+          "weight": 4.0
+        },
+        {
+          "type": "location",
+          "evidence": "Open to work (full availability)",
+          "weight": 5.0
+        }
+      ],
+      "summary": "Strong experience and React/TS skills but no data‑visualization background.",
+      "availability": "1 month"
+    }
+  ],
+  "meta": {
+    "approach": "agentic",
+    "generatedAt": "2026-05-08T11:42:31.058455Z"
+  }
+}

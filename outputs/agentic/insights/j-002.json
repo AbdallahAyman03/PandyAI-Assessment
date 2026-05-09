@@ -1,0 +1,64 @@
+{
+  "jobId": "j-002",
+  "approach": "agentic",
+  "topK": 2,
+  "results": [
+    {
+      "candidateId": "c-021",
+      "candidateName": "Hany Gamal",
+      "insights": {
+        "strengths": [
+          "Expertise in React, TypeScript, testing library, React Query, and TanStack Table; built complex filtering UIs."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "lighthouse",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Run Lighthouse audits and optimize Core Web Vitals.",
+          "Introduce code‑splitting using React.lazy and Webpack dynamic imports.",
+          "Add Vitest tests for existing components.",
+          "Continue leveraging React Query and TanStack Table for data handling."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-004",
+      "candidateName": "Youssef Abdelrahman",
+      "insights": {
+        "strengths": [
+          "Strong React, TypeScript, and testing library experience; led large Vue‑to‑React migration."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "lighthouse",
+            "react query",
+            "tanstack table",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Add performance profiling using Lighthouse and implement Core Web Vitals improvements.",
+          "Introduce code‑splitting via React.lazy and dynamic imports in Webpack.",
+          "Integrate React Query for data fetching and caching.",
+          "Adopt TanStack Table for advanced data tables.",
+          "Write unit and integration tests with Vitest."
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "approach": "agentic-insights",
+    "generatedAt": "2026-05-08T11:42:31.058455Z"
+  }
+}

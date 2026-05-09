@@ -1,0 +1,97 @@
+{
+  "jobId": "j-001",
+  "approach": "agentic",
+  "topK": 2,
+  "results": [
+    {
+      "candidateId": "c-010",
+      "candidateName": "Ahmed Saad",
+      "score": 85.0,
+      "matchedSkills": [
+        "css",
+        "react",
+        "react router",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "accessibility",
+        "design tokens",
+        "react query",
+        "storybook",
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Candidate possesses all required must-have skills: css, react, react router, typescript.",
+          "weight": 50.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "4.0 years of experience exceeds the 3-year minimum, granting full experience points plus bonus.",
+          "weight": 30.0
+        },
+        {
+          "type": "location_availability",
+          "evidence": "Open to work status provides full location/availability points.",
+          "weight": 5.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "No nice-to-have skills matched.",
+          "weight": 0.0
+        }
+      ],
+      "summary": "Strong fit with all must-have skills and sufficient experience, but lacks nice-to-have competencies.",
+      "availability": "2 weeks"
+    },
+    {
+      "candidateId": "c-015",
+      "candidateName": "Reem Hossam",
+      "score": 85.0,
+      "matchedSkills": [
+        "css",
+        "react",
+        "react router",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "accessibility",
+        "design tokens",
+        "react query",
+        "storybook",
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Candidate possesses all required must-have skills: css, react, react router, typescript.",
+          "weight": 50.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "4.0 years of experience exceeds the 3-year minimum, granting full experience points plus bonus.",
+          "weight": 30.0
+        },
+        {
+          "type": "location_availability",
+          "evidence": "Open to work status provides full location/availability points.",
+          "weight": 5.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "No nice-to-have skills matched.",
+          "weight": 0.0
+        }
+      ],
+      "summary": "Meets all core requirements and has solid experience, but does not demonstrate any nice-to-have skills.",
+      "availability": "2 weeks"
+    }
+  ],
+  "meta": {
+    "approach": "agentic",
+    "generatedAt": "2026-05-08T11:42:31.058455Z"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "jobId": "j-002",
+  "approach": "agentic",
+  "topK": 2,
+  "results": [
+    {
+      "candidateId": "c-021",
+      "candidateName": "Hany Gamal",
+      "score": 59.0,
+      "matchedSkills": [
+        "react",
+        "testing library",
+        "typescript",
+        "react query",
+        "tanstack table"
+      ],
+      "missingMustHaveSkills": [
+        "performance"
+      ],
+      "missingNiceToHaveSkills": [
+        "code splitting",
+        "lighthouse",
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Has react skill.",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has testing library skill.",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has typescript skill.",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_missing",
+          "evidence": "Missing performance optimization skill.",
+          "weight": -12.5
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "6 years experience meets 5-year requirement.",
+          "weight": 25.0
+        },
+        {
+          "type": "experience_bonus",
+          "evidence": "1 extra year adds bonus.",
+          "weight": 1.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Has react query skill.",
+          "weight": 4.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Has tanstack table skill.",
+          "weight": 4.0
+        }
+      ],
+      "summary": "Strong fit with relevant nice‑to‑have skills, but still missing performance expertise.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-004",
+      "candidateName": "Youssef Abdelrahman",
+      "score": 51.0,
+      "matchedSkills": [
+        "react",
+        "testing library",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "performance"
+      ],
+      "missingNiceToHaveSkills": [
+        "code splitting",
+        "lighthouse",
+        "react query",
+        "tanstack table",
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Has react skill.",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has testing library skill.",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_match",
+          "evidence": "Has typescript skill.",
+          "weight": 12.5
+        },
+        {
+          "type": "must_have_missing",
+          "evidence": "Missing performance optimization skill.",
+          "weight": -12.5
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "6 years experience meets 5-year requirement.",
+          "weight": 25.0
+        },
+        {
+          "type": "experience_bonus",
+          "evidence": "1 extra year adds bonus.",
+          "weight": 1.0
+        }
+      ],
+      "summary": "Candidate meets most must‑have criteria and has solid experience, but lacks performance expertise.",
+      "availability": "2 weeks"
+    }
+  ],
+  "meta": {
+    "approach": "agentic",
+    "generatedAt": "2026-05-08T11:42:31.058455Z"
+  }
+}

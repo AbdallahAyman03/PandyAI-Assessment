@@ -1,5 +1,6 @@
 {
   "jobId": "j-005",
+  "approach": "deterministic",
   "topK": 30,
   "results": [
     {
@@ -7,13 +8,13 @@
       "candidateName": "Mai Sherif",
       "score": 75.47,
       "matchedSkills": [
-        "react",
-        "forms",
-        "zod",
+        "accessibility",
         "error handling",
-        "typescript",
+        "forms",
+        "react",
         "react hook form",
-        "accessibility"
+        "typescript",
+        "zod"
       ],
       "missingMustHaveSkills": [],
       "missingNiceToHaveSkills": [
@@ -32,7 +33,7 @@
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (3.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -46,122 +47,26 @@
           "weight": -10.78
         }
       ],
-      "summary": "Potential match. Meets experience requirements. Matches all must-haves, plus bonus skills (error handling, zod). (2 missing skills were rescued by scanning experience/projects).",
+      "summary": "Potential match. Meets experience requirements. Matches all must-haves, plus bonus skills (error handling, react hook form). (2 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "1 month"
-    },
-    {
-      "candidateId": "c-030",
-      "candidateName": "Amr Fekry",
-      "score": 54.38,
-      "matchedSkills": [
-        "react",
-        "typescript",
-        "accessibility"
-      ],
-      "missingMustHaveSkills": [
-        "forms"
-      ],
-      "missingNiceToHaveSkills": [
-        "zod",
-        "error handling",
-        "vitest",
-        "react hook form"
-      ],
-      "reasons": [
-        {
-          "type": "must_have_match",
-          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
-          "weight": 37.5
-        },
-        {
-          "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
-          "weight": 0.0
-        },
-        {
-          "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 8.0 years, (+5.0 bonus points applied).",
-          "weight": 30.0
-        },
-        {
-          "type": "location_match",
-          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
-          "weight": 5.0
-        },
-        {
-          "type": "must_have_penalty",
-          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
-          "weight": -18.12
-        }
-      ],
-      "summary": "Weak fit. Highly experienced (8.0 yrs). Missing core skills: forms.",
-      "availability": "2 months"
-    },
-    {
-      "candidateId": "c-023",
-      "candidateName": "Rania Ayman",
-      "score": 54.38,
-      "matchedSkills": [
-        "react",
-        "typescript",
-        "accessibility"
-      ],
-      "missingMustHaveSkills": [
-        "forms"
-      ],
-      "missingNiceToHaveSkills": [
-        "zod",
-        "error handling",
-        "vitest",
-        "react hook form"
-      ],
-      "reasons": [
-        {
-          "type": "must_have_match",
-          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
-          "weight": 37.5
-        },
-        {
-          "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
-          "weight": 0.0
-        },
-        {
-          "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 7.0 years, (+5.0 bonus points applied).",
-          "weight": 30.0
-        },
-        {
-          "type": "location_match",
-          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
-          "weight": 5.0
-        },
-        {
-          "type": "must_have_penalty",
-          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
-          "weight": -18.12
-        }
-      ],
-      "summary": "Weak fit. Highly experienced (7.0 yrs). Missing core skills: forms.",
-      "availability": "2 months"
     },
     {
       "candidateId": "c-028",
       "candidateName": "Khaled Nassar",
       "score": 53.62,
       "matchedSkills": [
-        "react",
         "forms",
+        "react",
         "typescript"
       ],
       "missingMustHaveSkills": [
         "accessibility"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
@@ -171,12 +76,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (5.0 yrs). +4.0 bonus point(s) applied.",
           "weight": 29.0
         },
         {
@@ -198,18 +103,18 @@
       "candidateName": "Heba Salah",
       "score": 53.62,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
@@ -219,12 +124,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (5.0 yrs). +4.0 bonus point(s) applied.",
           "weight": 29.0
         },
         {
@@ -246,18 +151,18 @@
       "candidateName": "Lina Hassan",
       "score": 52.12,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
@@ -267,12 +172,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (4.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -294,18 +199,18 @@
       "candidateName": "Nour Adel",
       "score": 52.12,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
@@ -315,12 +220,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (4.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -342,18 +247,18 @@
       "candidateName": "Rawan Tamer",
       "score": 52.12,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
@@ -363,12 +268,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (4.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -390,18 +295,18 @@
       "candidateName": "Aya Khaled",
       "score": 50.62,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
@@ -411,12 +316,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (3.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -434,22 +339,75 @@
       "availability": "2 weeks"
     },
     {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "score": 48.94,
+      "matchedSkills": [
+        "accessibility",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "error handling",
+        "react hook form",
+        "vitest",
+        "zod"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (8.0 yrs). +5.0 bonus point(s) applied.",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -18.12
+        },
+        {
+          "type": "status_penalty",
+          "evidence": "Candidate status is 'Open to offers'. Applied 0.9x penalty.",
+          "weight": -5.44
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (8.0 yrs). Missing core skills: forms.",
+      "availability": "2 months"
+    },
+    {
       "candidateId": "c-006",
       "candidateName": "Kareem Mostafa",
       "score": 40.78,
       "matchedSkills": [
-        "react",
         "forms",
+        "react",
         "typescript"
       ],
       "missingMustHaveSkills": [
         "accessibility"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
@@ -459,12 +417,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (5.0 yrs). +4.0 bonus point(s) applied.",
           "weight": 29.0
         },
         {
@@ -478,7 +436,7 @@
           "weight": -24.47
         }
       ],
-      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: accessibility. (1 missing skills were rescued by scanning experience/projects).",
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: accessibility. (1 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "1 month"
     },
     {
@@ -486,18 +444,18 @@
       "candidateName": "Mohamed Hany",
       "score": 40.78,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
@@ -507,12 +465,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (5.0 yrs). +4.0 bonus point(s) applied.",
           "weight": 29.0
         },
         {
@@ -526,7 +484,7 @@
           "weight": -24.47
         }
       ],
-      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: forms. (1 missing skills were rescued by scanning experience/projects).",
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: forms. (1 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "1 month"
     },
     {
@@ -534,18 +492,18 @@
       "candidateName": "Eslam Samir",
       "score": 39.53,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
@@ -555,12 +513,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (4.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -574,7 +532,7 @@
           "weight": -23.72
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms. (1 missing skills were rescued by scanning experience/projects).",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms. (1 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "2 weeks"
     },
     {
@@ -583,32 +541,32 @@
       "score": 31.0,
       "matchedSkills": [
         "react",
-        "vitest",
-        "typescript"
+        "typescript",
+        "vitest"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
-        "react hook form"
+        "react hook form",
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: error handling, react hook form, zod.",
           "weight": 5.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (4.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -622,7 +580,7 @@
           "weight": -31.0
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, forms.",
       "availability": "Immediate"
     },
     {
@@ -630,33 +588,33 @@
       "candidateName": "Hossam Yasser",
       "score": 30.0,
       "matchedSkills": [
-        "react",
         "error handling",
+        "react",
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "react hook form",
-        "vitest"
+        "vitest",
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, react hook form, vitest.",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: react hook form, vitest, zod.",
           "weight": 5.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (3.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -670,7 +628,7 @@
           "weight": -30.0
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, forms.",
       "availability": "2 weeks"
     },
     {
@@ -682,29 +640,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 6.0 years, (+5.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (6.0 yrs). +5.0 bonus point(s) applied.",
           "weight": 30.0
         },
         {
@@ -718,7 +676,7 @@
           "weight": -30.0
         }
       ],
-      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: forms, accessibility.",
+      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: accessibility, forms.",
       "availability": "2 weeks"
     },
     {
@@ -730,29 +688,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 6.0 years, (+5.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (6.0 yrs). +5.0 bonus point(s) applied.",
           "weight": 30.0
         },
         {
@@ -766,7 +724,7 @@
           "weight": -30.0
         }
       ],
-      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: forms, accessibility.",
+      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: accessibility, forms.",
       "availability": "1 month"
     },
     {
@@ -779,28 +737,28 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
-        "vitest"
+        "vitest",
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, vitest.",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: error handling, vitest, zod.",
           "weight": 5.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (4.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -814,7 +772,7 @@
           "weight": -29.75
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, forms.",
       "availability": "Immediate"
     },
     {
@@ -823,32 +781,32 @@
       "score": 29.75,
       "matchedSkills": [
         "react",
-        "vitest",
-        "typescript"
+        "typescript",
+        "vitest"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
-        "react hook form"
+        "react hook form",
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: error handling, react hook form, zod.",
           "weight": 5.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (4.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -862,7 +820,7 @@
           "weight": -29.75
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, forms.",
       "availability": "2 weeks"
     },
     {
@@ -870,33 +828,33 @@
       "candidateName": "Reem Hossam",
       "score": 29.75,
       "matchedSkills": [
-        "react",
         "error handling",
+        "react",
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Rescued 1 from text (error handling). Missing: zod, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Rescued 1 from text (error handling). Missing: react hook form, vitest, zod.",
           "weight": 2.5
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (4.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -910,7 +868,7 @@
           "weight": -29.75
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility. (1 missing skills were rescued by scanning experience/projects).",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, forms. (1 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "2 weeks"
     },
     {
@@ -919,32 +877,32 @@
       "score": 28.75,
       "matchedSkills": [
         "react",
-        "vitest",
-        "typescript"
+        "typescript",
+        "vitest"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
-        "react hook form"
+        "react hook form",
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: error handling, react hook form, zod.",
           "weight": 5.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (3.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -958,7 +916,7 @@
           "weight": -28.75
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, forms.",
       "availability": "Immediate"
     },
     {
@@ -970,29 +928,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (4.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -1006,7 +964,7 @@
           "weight": -28.5
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, forms.",
       "availability": "Immediate"
     },
     {
@@ -1018,29 +976,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 4.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (4.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -1054,7 +1012,7 @@
           "weight": -28.5
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: forms, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, forms.",
       "availability": "2 weeks"
     },
     {
@@ -1066,29 +1024,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "forms",
-        "accessibility"
+        "accessibility",
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: forms, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, forms.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (5.0 yrs). +4.0 bonus point(s) applied.",
           "weight": 29.0
         },
         {
@@ -1102,26 +1060,79 @@
           "weight": -28.25
         }
       ],
-      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: forms, accessibility.",
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: accessibility, forms.",
       "availability": "Immediate"
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "score": 27.19,
+      "matchedSkills": [
+        "accessibility",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "error handling",
+        "react hook form",
+        "vitest",
+        "zod"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: forms.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (7.0 yrs). +5.0 bonus point(s) applied.",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -18.12
+        },
+        {
+          "type": "status_penalty",
+          "evidence": "Candidate status is 'Not currently looking'. Applied 0.5x penalty.",
+          "weight": -27.19
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (7.0 yrs). Missing core skills: forms.",
+      "availability": "2 months"
     },
     {
       "candidateId": "c-003",
       "candidateName": "Sara Nabil",
-      "score": 26.25,
+      "score": 23.62,
       "matchedSkills": [
-        "react",
-        "accessibility"
+        "accessibility",
+        "react"
       ],
       "missingMustHaveSkills": [
         "typescript",
         "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
@@ -1131,12 +1142,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (3.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -1148,6 +1159,11 @@
           "type": "must_have_penalty",
           "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
           "weight": -26.25
+        },
+        {
+          "type": "status_penalty",
+          "evidence": "Candidate status is 'Interviewing'. Applied 0.9x penalty.",
+          "weight": -2.62
         }
       ],
       "summary": "Weak fit. Meets experience requirements. Missing core skills: typescript, forms.",
@@ -1158,28 +1174,28 @@
       "candidateName": "Dina Ashraf",
       "score": 23.06,
       "matchedSkills": [
-        "react",
+        "accessibility",
         "forms",
-        "vitest",
-        "accessibility"
+        "react",
+        "vitest"
       ],
       "missingMustHaveSkills": [
         "typescript"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
-        "react hook form"
+        "react hook form",
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Rescued 2 from text (forms, accessibility). Missing: typescript.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Rescued 2 from text (accessibility, forms). Missing: typescript.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: error handling, react hook form, zod.",
           "weight": 5.0
         },
         {
@@ -1198,7 +1214,7 @@
           "weight": -23.06
         }
       ],
-      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript. (2 missing skills were rescued by scanning experience/projects).",
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript. (2 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "Immediate"
     },
     {
@@ -1210,29 +1226,29 @@
         "vitest"
       ],
       "missingMustHaveSkills": [
+        "accessibility",
         "typescript",
-        "forms",
-        "accessibility"
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
-        "react hook form"
+        "react hook form",
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Missing: typescript, forms, accessibility.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: accessibility, typescript, forms.",
           "weight": 12.5
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: error handling, react hook form, zod.",
           "weight": 5.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 5.0 years, (+4.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (5.0 yrs). +4.0 bonus point(s) applied.",
           "weight": 29.0
         },
         {
@@ -1246,7 +1262,7 @@
           "weight": -36.75
         }
       ],
-      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: typescript, forms, etc..",
+      "summary": "Weak fit. Highly experienced (5.0 yrs). Missing core skills: accessibility, typescript, etc..",
       "availability": "Immediate"
     },
     {
@@ -1257,30 +1273,30 @@
         "react"
       ],
       "missingMustHaveSkills": [
+        "accessibility",
         "typescript",
-        "forms",
-        "accessibility"
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Missing: typescript, forms, accessibility.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: accessibility, typescript, forms.",
           "weight": 12.5
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 3.0 years requirement has 3.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 3.0-year requirement (3.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -1294,7 +1310,7 @@
           "weight": -31.88
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: typescript, forms, etc..",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, typescript, etc..",
       "availability": "Immediate"
     },
     {
@@ -1306,24 +1322,24 @@
         "vitest"
       ],
       "missingMustHaveSkills": [
+        "accessibility",
         "typescript",
-        "forms",
-        "accessibility"
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
-        "react hook form"
+        "react hook form",
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Missing: typescript, forms, accessibility.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: accessibility, typescript, forms.",
           "weight": 12.5
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: zod, error handling, react hook form.",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: error handling, react hook form, zod.",
           "weight": 5.0
         },
         {
@@ -1342,7 +1358,7 @@
           "weight": -23.33
         }
       ],
-      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript, forms, etc..",
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: accessibility, typescript, etc..",
       "availability": "Immediate"
     },
     {
@@ -1353,25 +1369,25 @@
         "react"
       ],
       "missingMustHaveSkills": [
+        "accessibility",
         "typescript",
-        "forms",
-        "accessibility"
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Missing: typescript, forms, accessibility.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: accessibility, typescript, forms.",
           "weight": 12.5
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
@@ -1390,7 +1406,7 @@
           "weight": -21.46
         }
       ],
-      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript, forms, etc..",
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: accessibility, typescript, etc..",
       "availability": "Immediate"
     },
     {
@@ -1401,25 +1417,25 @@
         "react"
       ],
       "missingMustHaveSkills": [
+        "accessibility",
         "typescript",
-        "forms",
-        "accessibility"
+        "forms"
       ],
       "missingNiceToHaveSkills": [
-        "zod",
         "error handling",
+        "react hook form",
         "vitest",
-        "react hook form"
+        "zod"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Missing: typescript, forms, accessibility.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: accessibility, typescript, forms.",
           "weight": 12.5
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: zod, error handling, vitest, react hook form.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: error handling, react hook form, vitest, zod.",
           "weight": 0.0
         },
         {
@@ -1438,12 +1454,12 @@
           "weight": -19.58
         }
       ],
-      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: typescript, forms, etc..",
+      "summary": "Weak fit. Falls short of the 3.0-year requirement (2.0 yrs). Missing core skills: accessibility, typescript, etc..",
       "availability": "2 weeks"
     }
   ],
   "meta": {
-    "approach": "baseline-v1",
-    "generatedAt": "2026-05-05T22:06:03.726073Z"
+    "approach": "deterministic",
+    "generatedAt": "2026-05-08T10:02:48.082406Z"
   }
 }

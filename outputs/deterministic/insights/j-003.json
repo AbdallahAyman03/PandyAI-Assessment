@@ -1,49 +1,28 @@
 {
   "jobId": "j-003",
+  "approach": "deterministic",
   "topK": 30,
   "results": [
-    {
-      "candidateId": "c-023",
-      "candidateName": "Rania Ayman",
-      "insights": {
-        "strengths": [
-          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 4.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, storybook.",
-          "Provides immediate bonus value with nice-to-have skills like design tokens, monorepos."
-        ],
-        "skillGaps": {
-          "mustHave": [],
-          "niceToHave": [
-            "css modules",
-            "visual regression testing"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions.",
-          "Upskill Opportunity (VISUAL REGRESSION TESTING): Integrate a visual regression tool to automatically detect unexpected CSS changes across different viewports."
-        ]
-      }
-    },
     {
       "candidateId": "c-001",
       "candidateName": "Lina Hassan",
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 4.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, storybook.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, storybook, react.",
           "Provides immediate bonus value with nice-to-have skills like design tokens."
         ],
         "skillGaps": {
           "mustHave": [],
           "niceToHave": [
+            "visual regression testing",
             "css modules",
-            "monorepos",
-            "visual regression testing"
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions.",
-          "Upskill Opportunity (MONOREPOS): Set up a monorepo using Turborepo or Nx, sharing a UI component library and ESLint config across multiple applications."
+          "Upskill Opportunity (VISUAL REGRESSION TESTING): Integrate a visual regression tool to automatically detect unexpected CSS changes across different viewports.",
+          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions."
         ]
       }
     },
@@ -53,20 +32,20 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 4.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, storybook.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, storybook, react.",
           "Provides immediate bonus value with nice-to-have skills like design tokens."
         ],
         "skillGaps": {
           "mustHave": [],
           "niceToHave": [
+            "visual regression testing",
             "css modules",
-            "monorepos",
-            "visual regression testing"
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions.",
-          "Upskill Opportunity (MONOREPOS): Set up a monorepo using Turborepo or Nx, sharing a UI component library and ESLint config across multiple applications."
+          "Upskill Opportunity (VISUAL REGRESSION TESTING): Integrate a visual regression tool to automatically detect unexpected CSS changes across different viewports.",
+          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions."
         ]
       }
     },
@@ -76,45 +55,21 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 5.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, storybook.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, storybook, typescript.",
           "Demonstrated practical exposure: Evidence of accessibility found within project and experience history."
         ],
         "skillGaps": {
           "mustHave": [],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions.",
+          "Upskill Opportunity (VISUAL REGRESSION TESTING): Integrate a visual regression tool to automatically detect unexpected CSS changes across different viewports.",
           "Upskill Opportunity (DESIGN TOKENS): Extract hardcoded CSS hex values and spacing units into a centralized JSON design token system."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-030",
-      "candidateName": "Amr Fekry",
-      "insights": {
-        "strengths": [
-          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 4.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "storybook"
-          ],
-          "niceToHave": [
-            "css modules",
-            "design tokens",
-            "monorepos",
-            "visual regression testing"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -124,17 +79,17 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 5.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, typescript, react."
         ],
         "skillGaps": {
           "mustHave": [
             "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
@@ -148,21 +103,67 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 4.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, typescript, react."
         ],
         "skillGaps": {
           "mustHave": [
             "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
           "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 4.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, typescript, react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "storybook"
+          ],
+          "niceToHave": [
+            "visual regression testing",
+            "design tokens",
+            "css modules",
+            "monorepos"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 4.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, storybook, react.",
+          "Provides immediate bonus value with nice-to-have skills like monorepos, design tokens."
+        ],
+        "skillGaps": {
+          "mustHave": [],
+          "niceToHave": [
+            "visual regression testing",
+            "css modules"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Upskill Opportunity (VISUAL REGRESSION TESTING): Integrate a visual regression tool to automatically detect unexpected CSS changes across different viewports.",
+          "Upskill Opportunity (CSS MODULES): Scope styles locally in a component-based application using CSS Modules to eliminate global namespace collisions."
         ]
       }
     },
@@ -172,7 +173,7 @@
       "insights": {
         "strengths": [
           "Highly experienced: Brings 6.0 years of background, significantly exceeding the 4.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, storybook, typescript.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, storybook.",
           "Demonstrated practical exposure: Evidence of storybook found within project and experience history.",
           "Provides immediate bonus value with nice-to-have skills like css modules."
         ],
@@ -182,8 +183,8 @@
           ],
           "niceToHave": [
             "visual regression testing",
-            "design tokens",
-            "monorepos"
+            "monorepos",
+            "design tokens"
           ]
         },
         "recommendedNextSteps": [
@@ -196,17 +197,17 @@
       "candidateName": "Aya Khaled",
       "insights": {
         "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, typescript, react."
         ],
         "skillGaps": {
           "mustHave": [
             "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
@@ -220,17 +221,17 @@
       "candidateName": "Mai Sherif",
       "insights": {
         "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, accessibility."
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, typescript, react."
         ],
         "skillGaps": {
           "mustHave": [
             "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
@@ -253,10 +254,10 @@
             "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
@@ -274,19 +275,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -300,19 +301,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -326,19 +327,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -352,19 +353,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -378,19 +379,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -404,19 +405,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -430,19 +431,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -456,19 +457,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -482,19 +483,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -508,19 +509,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -533,19 +534,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
           "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
           "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
@@ -559,19 +560,19 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "storybook",
-            "accessibility"
+            "accessibility",
+            "storybook"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
           "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
           "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
@@ -581,7 +582,7 @@
       "candidateName": "Sara Nabil",
       "insights": {
         "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react, accessibility."
+          "Strong foundational alignment: Proven capability in core job requirements including accessibility, react."
         ],
         "skillGaps": {
           "mustHave": [
@@ -589,10 +590,10 @@
             "typescript"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
@@ -616,10 +617,10 @@
             "typescript"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
@@ -639,20 +640,20 @@
         ],
         "skillGaps": {
           "mustHave": [
+            "accessibility",
             "storybook",
-            "typescript",
-            "accessibility"
+            "typescript"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types."
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
+          "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook."
         ]
       }
     },
@@ -665,20 +666,20 @@
         ],
         "skillGaps": {
           "mustHave": [
+            "accessibility",
             "storybook",
-            "typescript",
-            "accessibility"
+            "typescript"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
           "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
@@ -692,20 +693,20 @@
         ],
         "skillGaps": {
           "mustHave": [
+            "accessibility",
             "storybook",
-            "typescript",
-            "accessibility"
+            "typescript"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
           "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
@@ -719,20 +720,20 @@
         ],
         "skillGaps": {
           "mustHave": [
+            "accessibility",
             "storybook",
-            "typescript",
-            "accessibility"
+            "typescript"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
           "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
@@ -746,27 +747,27 @@
         ],
         "skillGaps": {
           "mustHave": [
+            "accessibility",
             "storybook",
-            "typescript",
-            "accessibility"
+            "typescript"
           ],
           "niceToHave": [
-            "css modules",
+            "visual regression testing",
             "design tokens",
-            "monorepos",
-            "visual regression testing"
+            "css modules",
+            "monorepos"
           ]
         },
         "recommendedNextSteps": [
+          "Critical Gap (ACCESSIBILITY): Audit an existing webpage using Lighthouse or axe-core and remediate issues with semantic HTML and proper contrast.",
           "Critical Gap (STORYBOOK): Develop a small UI component library and document its various states visually using Storybook.",
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
     }
   ],
   "meta": {
-    "approach": "baseline-v1-insights",
-    "generatedAt": "2026-05-05T22:06:03.726073Z"
+    "approach": "deterministic-insights",
+    "generatedAt": "2026-05-08T10:02:48.082406Z"
   }
 }

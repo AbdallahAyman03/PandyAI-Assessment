@@ -1,5 +1,6 @@
 {
   "jobId": "j-004",
+  "approach": "deterministic",
   "topK": 30,
   "results": [
     {
@@ -8,9 +9,9 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 4.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, data visualization, typescript.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, data visualization.",
           "Demonstrated practical exposure: Evidence of data visualization found within project and experience history.",
-          "Provides immediate bonus value with nice-to-have skills like performance, recharts, d3."
+          "Provides immediate bonus value with nice-to-have skills like d3, performance, recharts."
         ],
         "skillGaps": {
           "mustHave": [],
@@ -22,31 +23,6 @@
         "recommendedNextSteps": [
           "Upskill Opportunity (REACT QUERY): Implement server-side state caching, background fetching, and optimistic UI updates using TanStack Query.",
           "Upskill Opportunity (URL STATE): Synchronize application state (like search filters and pagination) with URL query parameters for shareable links."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-030",
-      "candidateName": "Amr Fekry",
-      "insights": {
-        "strengths": [
-          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
-          "Provides immediate bonus value with nice-to-have skills like react query."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "data visualization"
-          ],
-          "niceToHave": [
-            "performance",
-            "recharts",
-            "url state",
-            "d3"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts."
         ]
       }
     },
@@ -65,9 +41,9 @@
           ],
           "niceToHave": [
             "performance",
-            "recharts",
+            "d3",
             "url state",
-            "d3"
+            "recharts"
           ]
         },
         "recommendedNextSteps": [
@@ -90,9 +66,9 @@
           ],
           "niceToHave": [
             "performance",
-            "recharts",
+            "d3",
             "url state",
-            "d3"
+            "recharts"
           ]
         },
         "recommendedNextSteps": [
@@ -115,34 +91,9 @@
           ],
           "niceToHave": [
             "react query",
-            "recharts",
+            "d3",
             "url state",
-            "d3"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-023",
-      "candidateName": "Rania Ayman",
-      "insights": {
-        "strengths": [
-          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 3.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "data visualization"
-          ],
-          "niceToHave": [
-            "performance",
-            "recharts",
-            "react query",
-            "url state",
-            "d3"
+            "recharts"
           ]
         },
         "recommendedNextSteps": [
@@ -163,11 +114,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -190,9 +141,9 @@
           ],
           "niceToHave": [
             "performance",
-            "recharts",
+            "d3",
             "url state",
-            "d3"
+            "recharts"
           ]
         },
         "recommendedNextSteps": [
@@ -213,11 +164,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -238,11 +189,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -263,11 +214,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -289,10 +240,10 @@
             "data visualization"
           ],
           "niceToHave": [
-            "recharts",
             "react query",
-            "url state",
-            "d3"
+            "d3",
+            "recharts",
+            "url state"
           ]
         },
         "recommendedNextSteps": [
@@ -314,10 +265,10 @@
             "data visualization"
           ],
           "niceToHave": [
-            "recharts",
             "react query",
-            "url state",
-            "d3"
+            "d3",
+            "recharts",
+            "url state"
           ]
         },
         "recommendedNextSteps": [
@@ -338,11 +289,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -363,11 +314,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -388,11 +339,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -413,11 +364,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -438,11 +389,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -463,11 +414,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -489,10 +440,35 @@
             "data visualization"
           ],
           "niceToHave": [
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
+            "url state"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like react query."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "data visualization"
+          ],
+          "niceToHave": [
+            "performance",
+            "d3",
             "url state",
-            "d3"
+            "recharts"
           ]
         },
         "recommendedNextSteps": [
@@ -514,10 +490,10 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
-            "d3"
+            "d3",
+            "performance",
+            "recharts"
           ]
         },
         "recommendedNextSteps": [
@@ -538,11 +514,11 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -563,11 +539,36 @@
             "data visualization"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 3.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "data visualization"
+          ],
+          "niceToHave": [
+            "react query",
+            "d3",
+            "recharts",
+            "url state",
+            "performance"
           ]
         },
         "recommendedNextSteps": [
@@ -582,22 +583,22 @@
         "strengths": [
           "Highly experienced: Brings 5.0 years of background, significantly exceeding the 3.0-year requirement.",
           "Strong foundational alignment: Proven capability in core job requirements including react.",
-          "Provides immediate bonus value with nice-to-have skills like performance, react query."
+          "Provides immediate bonus value with nice-to-have skills like react query, performance."
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
-            "data visualization"
+            "data visualization",
+            "typescript"
           ],
           "niceToHave": [
-            "recharts",
+            "d3",
             "url state",
-            "d3"
+            "recharts"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
-          "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts."
+          "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types."
         ]
       }
     },
@@ -611,20 +612,20 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
-            "data visualization"
+            "data visualization",
+            "typescript"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
-          "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts."
+          "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types."
         ]
       }
     },
@@ -638,20 +639,20 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
-            "data visualization"
+            "data visualization",
+            "typescript"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
-          "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts."
+          "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types."
         ]
       }
     },
@@ -664,20 +665,20 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
-            "data visualization"
+            "data visualization",
+            "typescript"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
@@ -691,20 +692,20 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
-            "data visualization"
+            "data visualization",
+            "typescript"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
@@ -718,20 +719,20 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
-            "data visualization"
+            "data visualization",
+            "typescript"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
@@ -745,27 +746,27 @@
         ],
         "skillGaps": {
           "mustHave": [
-            "typescript",
-            "data visualization"
+            "data visualization",
+            "typescript"
           ],
           "niceToHave": [
-            "performance",
-            "recharts",
             "react query",
+            "d3",
+            "recharts",
             "url state",
-            "d3"
+            "performance"
           ]
         },
         "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Critical Gap (DATA VISUALIZATION): Design an interactive dashboard that transforms raw datasets into visually distinct, readable charts.",
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
     }
   ],
   "meta": {
-    "approach": "baseline-v1-insights",
-    "generatedAt": "2026-05-05T22:06:03.726073Z"
+    "approach": "deterministic-insights",
+    "generatedAt": "2026-05-08T10:02:48.082406Z"
   }
 }

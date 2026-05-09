@@ -1,5 +1,6 @@
 {
   "jobId": "j-002",
+  "approach": "deterministic",
   "topK": 30,
   "results": [
     {
@@ -8,8 +9,8 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 6.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, testing library, typescript.",
-          "Provides immediate bonus value with nice-to-have skills like tanstack table, react query."
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library.",
+          "Provides immediate bonus value with nice-to-have skills like react query, tanstack table."
         ],
         "skillGaps": {
           "mustHave": [
@@ -32,18 +33,18 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 6.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, testing library, typescript."
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library."
         ],
         "skillGaps": {
           "mustHave": [
             "performance"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -57,18 +58,18 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 5.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, testing library, typescript."
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library."
         ],
         "skillGaps": {
           "mustHave": [
             "performance"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -82,18 +83,18 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 5.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, testing library, typescript."
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library."
         ],
         "skillGaps": {
           "mustHave": [
             "performance"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -106,7 +107,7 @@
       "candidateName": "Adham Ehab",
       "insights": {
         "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react, testing library, typescript.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library.",
           "Provides immediate bonus value with nice-to-have skills like vitest."
         ],
         "skillGaps": {
@@ -114,10 +115,10 @@
             "performance"
           ],
           "niceToHave": [
+            "react query",
             "lighthouse",
             "tanstack table",
-            "code splitting",
-            "react query"
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -131,7 +132,7 @@
       "candidateName": "Tarek Hamdi",
       "insights": {
         "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react, testing library, typescript.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library.",
           "Provides immediate bonus value with nice-to-have skills like vitest."
         ],
         "skillGaps": {
@@ -139,10 +140,10 @@
             "performance"
           ],
           "niceToHave": [
+            "react query",
             "lighthouse",
             "tanstack table",
-            "code splitting",
-            "react query"
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -156,18 +157,18 @@
       "candidateName": "Eslam Samir",
       "insights": {
         "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react, performance, typescript."
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, performance."
         ],
         "skillGaps": {
           "mustHave": [
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -182,7 +183,7 @@
       "insights": {
         "strengths": [
           "Meets the baseline experience requirement with 5.0 years of relevant work.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, performance, typescript.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, performance.",
           "Demonstrated practical exposure: Evidence of performance found within project and experience history.",
           "Provides immediate bonus value with nice-to-have skills like lighthouse, code splitting."
         ],
@@ -191,9 +192,9 @@
             "testing library"
           ],
           "niceToHave": [
-            "tanstack table",
+            "react query",
             "vitest",
-            "react query"
+            "tanstack table"
           ]
         },
         "recommendedNextSteps": [
@@ -206,7 +207,7 @@
       "candidateName": "Lina Hassan",
       "insights": {
         "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react, performance, typescript.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, performance.",
           "Demonstrated practical exposure: Evidence of performance found within project and experience history.",
           "Provides immediate bonus value with nice-to-have skills like lighthouse."
         ],
@@ -215,10 +216,10 @@
             "testing library"
           ],
           "niceToHave": [
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -228,38 +229,11 @@
       }
     },
     {
-      "candidateId": "c-030",
-      "candidateName": "Amr Fekry",
-      "insights": {
-        "strengths": [
-          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 5.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
-          "Provides immediate bonus value with nice-to-have skills like react query."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "performance",
-            "testing library"
-          ],
-          "niceToHave": [
-            "lighthouse",
-            "tanstack table",
-            "vitest",
-            "code splitting"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
-          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library."
-        ]
-      }
-    },
-    {
       "candidateId": "c-005",
       "candidateName": "Mariam Fathy",
       "insights": {
         "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react, performance, typescript.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, performance.",
           "Demonstrated practical exposure: Evidence of performance found within project and experience history."
         ],
         "skillGaps": {
@@ -267,11 +241,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -308,12 +282,13 @@
       }
     },
     {
-      "candidateId": "c-023",
-      "candidateName": "Rania Ayman",
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
       "insights": {
         "strengths": [
-          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 5.0-year requirement.",
-          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 5.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like react query."
         ],
         "skillGaps": {
           "mustHave": [
@@ -322,10 +297,9 @@
           ],
           "niceToHave": [
             "lighthouse",
-            "code splitting",
+            "tanstack table",
             "vitest",
-            "react query",
-            "tanstack table"
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -339,7 +313,7 @@
       "candidateName": "Aya Khaled",
       "insights": {
         "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react, performance, typescript.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, performance.",
           "Demonstrated practical exposure: Evidence of performance found within project and experience history."
         ],
         "skillGaps": {
@@ -347,11 +321,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -374,11 +348,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -400,11 +374,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -427,11 +401,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -454,11 +428,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -481,11 +455,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -508,11 +482,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -557,7 +531,7 @@
           "Meets the baseline experience requirement with 5.0 years of relevant work.",
           "Strong foundational alignment: Proven capability in core job requirements including react, performance.",
           "Demonstrated practical exposure: Evidence of performance found within project and experience history.",
-          "Provides immediate bonus value with nice-to-have skills like vitest, react query."
+          "Provides immediate bonus value with nice-to-have skills like react query, vitest."
         ],
         "skillGaps": {
           "mustHave": [
@@ -590,10 +564,10 @@
             "testing library"
           ],
           "niceToHave": [
+            "react query",
             "lighthouse",
             "tanstack table",
-            "code splitting",
-            "react query"
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -616,17 +590,44 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
           "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
           "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
           "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 5.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "react query",
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library."
         ]
       }
     },
@@ -644,11 +645,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -673,10 +674,38 @@
             "testing library"
           ],
           "niceToHave": [
+            "react query",
             "lighthouse",
             "tanstack table",
-            "code splitting",
-            "react query"
+            "code splitting"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Experience Gap: Offset the 3.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-022",
+      "candidateName": "Nada Younis",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react.",
+          "Provides immediate bonus value with nice-to-have skills like vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "react query",
+            "lighthouse",
+            "tanstack table",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -700,45 +729,17 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
           "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
           "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
           "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
-        ]
-      }
-    },
-    {
-      "candidateId": "c-022",
-      "candidateName": "Nada Younis",
-      "insights": {
-        "strengths": [
-          "Strong foundational alignment: Proven capability in core job requirements including react.",
-          "Provides immediate bonus value with nice-to-have skills like vitest."
-        ],
-        "skillGaps": {
-          "mustHave": [
-            "typescript",
-            "performance",
-            "testing library"
-          ],
-          "niceToHave": [
-            "lighthouse",
-            "tanstack table",
-            "code splitting",
-            "react query"
-          ]
-        },
-        "recommendedNextSteps": [
-          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
-          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
-          "Experience Gap: Offset the 3.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
         ]
       }
     },
@@ -756,11 +757,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -784,11 +785,11 @@
             "testing library"
           ],
           "niceToHave": [
-            "lighthouse",
-            "code splitting",
-            "vitest",
             "react query",
-            "tanstack table"
+            "lighthouse",
+            "tanstack table",
+            "vitest",
+            "code splitting"
           ]
         },
         "recommendedNextSteps": [
@@ -800,7 +801,7 @@
     }
   ],
   "meta": {
-    "approach": "baseline-v1-insights",
-    "generatedAt": "2026-05-05T22:06:03.726073Z"
+    "approach": "deterministic-insights",
+    "generatedAt": "2026-05-08T10:02:48.082406Z"
   }
 }

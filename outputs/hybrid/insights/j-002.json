@@ -1,0 +1,807 @@
+{
+  "jobId": "j-002",
+  "approach": "hybrid",
+  "topK": 30,
+  "results": [
+    {
+      "candidateId": "c-021",
+      "candidateName": "Hany Gamal",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 6.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library.",
+          "Provides immediate bonus value with nice-to-have skills like react query, tanstack table."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "lighthouse",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-004",
+      "candidateName": "Youssef Abdelrahman",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 6.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-028",
+      "candidateName": "Khaled Nassar",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-014",
+      "candidateName": "Mohamed Hany",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-016",
+      "candidateName": "Adham Ehab",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library.",
+          "Provides immediate bonus value with nice-to-have skills like vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance"
+          ],
+          "niceToHave": [
+            "react query",
+            "code splitting",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-012",
+      "candidateName": "Tarek Hamdi",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, testing library.",
+          "Provides immediate bonus value with nice-to-have skills like vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance"
+          ],
+          "niceToHave": [
+            "react query",
+            "code splitting",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-024",
+      "candidateName": "Eslam Samir",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, performance."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-008",
+      "candidateName": "Hassan Magdy",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, performance.",
+          "Demonstrated practical exposure: Evidence of performance found within project and experience history.",
+          "Provides immediate bonus value with nice-to-have skills like code splitting, lighthouse."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "testing library"
+          ],
+          "niceToHave": [
+            "react query",
+            "tanstack table",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-001",
+      "candidateName": "Lina Hassan",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, performance.",
+          "Demonstrated practical exposure: Evidence of performance found within project and experience history.",
+          "Provides immediate bonus value with nice-to-have skills like lighthouse."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-005",
+      "candidateName": "Mariam Fathy",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, performance.",
+          "Demonstrated practical exposure: Evidence of performance found within project and experience history."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 8.0 years of background, significantly exceeding the 5.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like react query."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "tanstack table",
+            "lighthouse",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-018",
+      "candidateName": "Heba Salah",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like react query."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "tanstack table",
+            "lighthouse",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-006",
+      "candidateName": "Kareem Mostafa",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-020",
+      "candidateName": "Aya Khaled",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript, performance.",
+          "Demonstrated practical exposure: Evidence of performance found within project and experience history."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-010",
+      "candidateName": "Ahmed Saad",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-015",
+      "candidateName": "Reem Hossam",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-019",
+      "candidateName": "Mostafa Rashed",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-027",
+      "candidateName": "Rawan Tamer",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-026",
+      "candidateName": "Hossam Yasser",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like react query."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "tanstack table",
+            "lighthouse",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-007",
+      "candidateName": "Nour Adel",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 1.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-002",
+      "candidateName": "Omar El-Sayed",
+      "insights": {
+        "strengths": [
+          "Meets the baseline experience requirement with 5.0 years of relevant work.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, performance.",
+          "Demonstrated practical exposure: Evidence of performance found within project and experience history.",
+          "Provides immediate bonus value with nice-to-have skills like react query, vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-011",
+      "candidateName": "Mai Sherif",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-025",
+      "candidateName": "Nada Mahmoud",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript.",
+          "Provides immediate bonus value with nice-to-have skills like vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "react query",
+            "code splitting",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library.",
+          "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "insights": {
+        "strengths": [
+          "Highly experienced: Brings 7.0 years of background, significantly exceeding the 5.0-year requirement.",
+          "Strong foundational alignment: Proven capability in core job requirements including react, typescript."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Critical Gap (TESTING LIBRARY): Write a suite of behavioral tests focusing on user interactions and accessibility roles using React Testing Library."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-013",
+      "candidateName": "Salma Emad",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-029",
+      "candidateName": "Yara Mahmoud",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Experience Gap: Offset the 3.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-009",
+      "candidateName": "Dina Ashraf",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react.",
+          "Provides immediate bonus value with nice-to-have skills like vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "react query",
+            "code splitting",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Experience Gap: Offset the 3.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-022",
+      "candidateName": "Nada Younis",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react.",
+          "Provides immediate bonus value with nice-to-have skills like vitest."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "react query",
+            "code splitting",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Experience Gap: Offset the 3.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-017",
+      "candidateName": "Farah Mounir",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Experience Gap: Offset the 3.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-003",
+      "candidateName": "Sara Nabil",
+      "insights": {
+        "strengths": [
+          "Strong foundational alignment: Proven capability in core job requirements including react."
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "typescript",
+            "performance",
+            "testing library"
+          ],
+          "niceToHave": [
+            "code splitting",
+            "vitest",
+            "react query",
+            "tanstack table",
+            "lighthouse"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Critical Gap (TYPESCRIPT): Migrate a small JavaScript project to TypeScript, focusing on defining strict interfaces and generic types.",
+          "Critical Gap (PERFORMANCE): Profile a web application using browser DevTools and optimize rendering by memoizing heavy components.",
+          "Experience Gap: Offset the 2.0-year shortfall by contributing to relevant open-source repositories or building high-complexity portfolio pieces."
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "approach": "hybrid-insights",
+    "generatedAt": "2026-05-08T11:09:51.075656Z"
+  }
+}

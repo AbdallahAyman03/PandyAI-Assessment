@@ -1,65 +1,24 @@
 {
   "jobId": "j-003",
+  "approach": "deterministic",
   "topK": 30,
   "results": [
-    {
-      "candidateId": "c-023",
-      "candidateName": "Rania Ayman",
-      "score": 95.0,
-      "matchedSkills": [
-        "react",
-        "design tokens",
-        "storybook",
-        "monorepos",
-        "typescript",
-        "accessibility"
-      ],
-      "missingMustHaveSkills": [],
-      "missingNiceToHaveSkills": [
-        "css modules",
-        "visual regression testing"
-      ],
-      "reasons": [
-        {
-          "type": "must_have_match",
-          "evidence": "Explicitly matched 4/4 must-have skills.",
-          "weight": 50.0
-        },
-        {
-          "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 2/4 nice-to-have skills. Missing: css modules, visual regression testing.",
-          "weight": 10.0
-        },
-        {
-          "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 7.0 years, (+5.0 bonus points applied).",
-          "weight": 30.0
-        },
-        {
-          "type": "location_match",
-          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
-          "weight": 5.0
-        }
-      ],
-      "summary": "Strong candidate. Highly experienced (7.0 yrs). Matches all must-haves, plus bonus skills (design tokens, monorepos).",
-      "availability": "2 months"
-    },
     {
       "candidateId": "c-001",
       "candidateName": "Lina Hassan",
       "score": 82.5,
       "matchedSkills": [
-        "react",
+        "accessibility",
         "design tokens",
+        "react",
         "storybook",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [],
       "missingNiceToHaveSkills": [
+        "visual regression testing",
         "css modules",
-        "monorepos",
-        "visual regression testing"
+        "monorepos"
       ],
       "reasons": [
         {
@@ -69,12 +28,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Rescued 1 from text (design tokens). Missing: css modules, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Rescued 1 from text (design tokens). Missing: visual regression testing, css modules, monorepos.",
           "weight": 2.5
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 4.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (4.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -83,7 +42,7 @@
           "weight": 5.0
         }
       ],
-      "summary": "Potential match. Meets experience requirements. Matches all must-haves, plus bonus skills (design tokens). (1 missing skills were rescued by scanning experience/projects).",
+      "summary": "Potential match. Meets experience requirements. Matches all must-haves, plus bonus skills (design tokens). (1 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "2 weeks"
     },
     {
@@ -91,17 +50,17 @@
       "candidateName": "Nour Adel",
       "score": 82.5,
       "matchedSkills": [
-        "react",
+        "accessibility",
         "design tokens",
+        "react",
         "storybook",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [],
       "missingNiceToHaveSkills": [
+        "visual regression testing",
         "css modules",
-        "monorepos",
-        "visual regression testing"
+        "monorepos"
       ],
       "reasons": [
         {
@@ -111,12 +70,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Rescued 1 from text (design tokens). Missing: css modules, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Rescued 1 from text (design tokens). Missing: visual regression testing, css modules, monorepos.",
           "weight": 2.5
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 4.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (4.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -125,7 +84,7 @@
           "weight": 5.0
         }
       ],
-      "summary": "Potential match. Meets experience requirements. Matches all must-haves, plus bonus skills (design tokens). (1 missing skills were rescued by scanning experience/projects).",
+      "summary": "Potential match. Meets experience requirements. Matches all must-haves, plus bonus skills (design tokens). (1 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "2 weeks"
     },
     {
@@ -133,17 +92,17 @@
       "candidateName": "Mohamed Hany",
       "score": 66.28,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
         "storybook",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
@@ -153,12 +112,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 5.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (5.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -172,74 +131,26 @@
           "weight": -9.47
         }
       ],
-      "summary": "Potential match. Meets experience requirements. Matches all core must-have requirements. (1 missing skills were rescued by scanning experience/projects).",
+      "summary": "Potential match. Meets experience requirements. Matches all core must-have requirements. (1 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "1 month"
-    },
-    {
-      "candidateId": "c-030",
-      "candidateName": "Amr Fekry",
-      "score": 54.38,
-      "matchedSkills": [
-        "react",
-        "typescript",
-        "accessibility"
-      ],
-      "missingMustHaveSkills": [
-        "storybook"
-      ],
-      "missingNiceToHaveSkills": [
-        "css modules",
-        "design tokens",
-        "monorepos",
-        "visual regression testing"
-      ],
-      "reasons": [
-        {
-          "type": "must_have_match",
-          "evidence": "Explicitly matched 3/4 must-have skills. Missing: storybook.",
-          "weight": 37.5
-        },
-        {
-          "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
-          "weight": 0.0
-        },
-        {
-          "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 8.0 years, (+5.0 bonus points applied).",
-          "weight": 30.0
-        },
-        {
-          "type": "location_match",
-          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
-          "weight": 5.0
-        },
-        {
-          "type": "must_have_penalty",
-          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
-          "weight": -18.12
-        }
-      ],
-      "summary": "Weak fit. Highly experienced (8.0 yrs). Missing core skills: storybook.",
-      "availability": "2 months"
     },
     {
       "candidateId": "c-018",
       "candidateName": "Heba Salah",
       "score": 52.12,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
@@ -249,12 +160,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 5.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (5.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -276,18 +187,18 @@
       "candidateName": "Rawan Tamer",
       "score": 50.62,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
@@ -297,12 +208,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 4.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (4.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -320,22 +231,122 @@
       "availability": "1 month"
     },
     {
+      "candidateId": "c-030",
+      "candidateName": "Amr Fekry",
+      "score": 48.94,
+      "matchedSkills": [
+        "accessibility",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "storybook"
+      ],
+      "missingNiceToHaveSkills": [
+        "visual regression testing",
+        "design tokens",
+        "css modules",
+        "monorepos"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 3/4 must-have skills. Missing: storybook.",
+          "weight": 37.5
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
+          "weight": 0.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (8.0 yrs). +5.0 bonus point(s) applied.",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "must_have_penalty",
+          "evidence": "Missing core must-have skills. Applied 0.75x penalty multiplier.",
+          "weight": -18.12
+        },
+        {
+          "type": "status_penalty",
+          "evidence": "Candidate status is 'Open to offers'. Applied 0.9x penalty.",
+          "weight": -5.44
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (8.0 yrs). Missing core skills: storybook.",
+      "availability": "2 months"
+    },
+    {
+      "candidateId": "c-023",
+      "candidateName": "Rania Ayman",
+      "score": 47.5,
+      "matchedSkills": [
+        "accessibility",
+        "design tokens",
+        "monorepos",
+        "react",
+        "storybook",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "visual regression testing",
+        "css modules"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Explicitly matched 4/4 must-have skills.",
+          "weight": 50.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Explicitly matched 2/4 nice-to-have skills. Missing: visual regression testing, css modules.",
+          "weight": 10.0
+        },
+        {
+          "type": "experience_fit",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (7.0 yrs). +5.0 bonus point(s) applied.",
+          "weight": 30.0
+        },
+        {
+          "type": "location_match",
+          "evidence": "Candidate and job both in Cairo, Egypt. Full location points awarded.",
+          "weight": 5.0
+        },
+        {
+          "type": "status_penalty",
+          "evidence": "Candidate status is 'Not currently looking'. Applied 0.5x penalty.",
+          "weight": -47.5
+        }
+      ],
+      "summary": "Weak fit. Highly experienced (7.0 yrs). Matches all must-haves, plus bonus skills (monorepos, design tokens).",
+      "availability": "2 months"
+    },
+    {
       "candidateId": "c-004",
       "candidateName": "Youssef Abdelrahman",
       "score": 43.91,
       "matchedSkills": [
-        "react",
         "css modules",
-        "typescript",
-        "storybook"
+        "react",
+        "storybook",
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "accessibility"
       ],
       "missingNiceToHaveSkills": [
         "visual regression testing",
-        "design tokens",
-        "monorepos"
+        "monorepos",
+        "design tokens"
       ],
       "reasons": [
         {
@@ -345,12 +356,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: visual regression testing, design tokens, monorepos.",
+          "evidence": "Explicitly matched 1/4 nice-to-have skills. Missing: visual regression testing, monorepos, design tokens.",
           "weight": 5.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 6.0 years, (+4.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (6.0 yrs). +4.0 bonus point(s) applied.",
           "weight": 29.0
         },
         {
@@ -364,7 +375,7 @@
           "weight": -26.34
         }
       ],
-      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: accessibility. (1 missing skills were rescued by scanning experience/projects).",
+      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: accessibility. (1 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "2 weeks"
     },
     {
@@ -372,18 +383,18 @@
       "candidateName": "Aya Khaled",
       "score": 42.42,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
@@ -393,7 +404,7 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
@@ -420,18 +431,18 @@
       "candidateName": "Mai Sherif",
       "score": 42.42,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
@@ -441,7 +452,7 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
@@ -468,18 +479,18 @@
       "candidateName": "Eslam Samir",
       "score": 38.28,
       "matchedSkills": [
+        "accessibility",
         "react",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingMustHaveSkills": [
         "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
@@ -489,12 +500,12 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 4.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (4.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -508,7 +519,7 @@
           "weight": -22.97
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook. (1 missing skills were rescued by scanning experience/projects).",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook. (1 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "2 weeks"
     },
     {
@@ -520,29 +531,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 6.0 years, (+4.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (6.0 yrs). +4.0 bonus point(s) applied.",
           "weight": 29.0
         },
         {
@@ -556,7 +567,7 @@
           "weight": -29.5
         }
       ],
-      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Highly experienced (6.0 yrs). Missing core skills: accessibility, storybook.",
       "availability": "1 month"
     },
     {
@@ -568,29 +579,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 5.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (5.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -604,7 +615,7 @@
           "weight": -28.5
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, storybook.",
       "availability": "2 weeks"
     },
     {
@@ -616,29 +627,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 5.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (5.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -652,7 +663,7 @@
           "weight": -28.5
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, storybook.",
       "availability": "1 month"
     },
     {
@@ -664,29 +675,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 4.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (4.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -700,7 +711,7 @@
           "weight": -27.5
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, storybook.",
       "availability": "Immediate"
     },
     {
@@ -712,29 +723,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 4.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (4.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -748,7 +759,7 @@
           "weight": -27.5
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, storybook.",
       "availability": "Immediate"
     },
     {
@@ -760,29 +771,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 4.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (4.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -796,7 +807,7 @@
           "weight": -27.5
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, storybook.",
       "availability": "2 weeks"
     },
     {
@@ -808,29 +819,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 4.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (4.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -844,7 +855,7 @@
           "weight": -27.5
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, storybook.",
       "availability": "2 weeks"
     },
     {
@@ -856,29 +867,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 5.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (5.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -892,7 +903,7 @@
           "weight": -27.25
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, storybook.",
       "availability": "Immediate"
     },
     {
@@ -904,29 +915,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 4.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (4.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -940,7 +951,7 @@
           "weight": -26.25
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, storybook.",
       "availability": "Immediate"
     },
     {
@@ -952,29 +963,29 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 4.0 years, (+0.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (4.0 yrs). +0.0 bonus point(s) applied.",
           "weight": 25.0
         },
         {
@@ -988,7 +999,7 @@
           "weight": -26.25
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, storybook.",
       "availability": "2 weeks"
     },
     {
@@ -1000,24 +1011,24 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
@@ -1036,7 +1047,7 @@
           "weight": -22.03
         }
       ],
-      "summary": "Weak fit. Falls short of the 4.0-year requirement (3.0 yrs). Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Falls short of the 4.0-year requirement (3.0 yrs). Missing core skills: accessibility, storybook.",
       "availability": "2 weeks"
     },
     {
@@ -1048,24 +1059,24 @@
         "typescript"
       ],
       "missingMustHaveSkills": [
-        "storybook",
-        "accessibility"
+        "accessibility",
+        "storybook"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 2/4 must-have skills. Missing: storybook, accessibility.",
+          "evidence": "Explicitly matched 2/4 must-have skills. Missing: accessibility, storybook.",
           "weight": 25.0
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
@@ -1084,26 +1095,26 @@
           "weight": -20.78
         }
       ],
-      "summary": "Weak fit. Falls short of the 4.0-year requirement (3.0 yrs). Missing core skills: storybook, accessibility.",
+      "summary": "Weak fit. Falls short of the 4.0-year requirement (3.0 yrs). Missing core skills: accessibility, storybook.",
       "availability": "Immediate"
     },
     {
       "candidateId": "c-003",
       "candidateName": "Sara Nabil",
-      "score": 20.78,
+      "score": 18.7,
       "matchedSkills": [
-        "react",
-        "accessibility"
+        "accessibility",
+        "react"
       ],
       "missingMustHaveSkills": [
         "storybook",
         "typescript"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
@@ -1113,7 +1124,7 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
@@ -1130,6 +1141,11 @@
           "type": "must_have_penalty",
           "evidence": "Missing core must-have skills. Applied 0.5x penalty multiplier.",
           "weight": -20.78
+        },
+        {
+          "type": "status_penalty",
+          "evidence": "Candidate status is 'Interviewing'. Applied 0.9x penalty.",
+          "weight": -2.08
         }
       ],
       "summary": "Weak fit. Falls short of the 4.0-year requirement (3.0 yrs). Missing core skills: storybook, typescript.",
@@ -1140,18 +1156,18 @@
       "candidateName": "Dina Ashraf",
       "score": 11.25,
       "matchedSkills": [
-        "react",
-        "accessibility"
+        "accessibility",
+        "react"
       ],
       "missingMustHaveSkills": [
         "storybook",
         "typescript"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
@@ -1161,7 +1177,7 @@
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
@@ -1180,7 +1196,7 @@
           "weight": -18.75
         }
       ],
-      "summary": "Weak fit. Falls short of the 4.0-year requirement (2.0 yrs). Missing core skills: storybook, typescript. (1 missing skills were rescued by scanning experience/projects).",
+      "summary": "Weak fit. Falls short of the 4.0-year requirement (2.0 yrs). Missing core skills: storybook, typescript. (1 missing skill(s) were rescued by scanning experience/projects).",
       "availability": "Immediate"
     },
     {
@@ -1191,30 +1207,30 @@
         "react"
       ],
       "missingMustHaveSkills": [
+        "accessibility",
         "storybook",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Missing: storybook, typescript, accessibility.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: accessibility, storybook, typescript.",
           "weight": 12.5
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
           "type": "experience_fit",
-          "evidence": "Candidate meets or exceeds 4.0 years requirement has 5.0 years, (+2.0 bonus points applied).",
+          "evidence": "Candidate meets or exceeds 4.0-year requirement (5.0 yrs). +2.0 bonus point(s) applied.",
           "weight": 27.0
         },
         {
@@ -1228,7 +1244,7 @@
           "weight": -31.5
         }
       ],
-      "summary": "Weak fit. Meets experience requirements. Missing core skills: storybook, typescript, etc..",
+      "summary": "Weak fit. Meets experience requirements. Missing core skills: accessibility, storybook, etc..",
       "availability": "Immediate"
     },
     {
@@ -1239,25 +1255,25 @@
         "react"
       ],
       "missingMustHaveSkills": [
+        "accessibility",
         "storybook",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Missing: storybook, typescript, accessibility.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: accessibility, storybook, typescript.",
           "weight": 12.5
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
@@ -1276,7 +1292,7 @@
           "weight": -23.67
         }
       ],
-      "summary": "Weak fit. Falls short of the 4.0-year requirement (3.0 yrs). Missing core skills: storybook, typescript, etc..",
+      "summary": "Weak fit. Falls short of the 4.0-year requirement (3.0 yrs). Missing core skills: accessibility, storybook, etc..",
       "availability": "Immediate"
     },
     {
@@ -1287,25 +1303,25 @@
         "react"
       ],
       "missingMustHaveSkills": [
+        "accessibility",
         "storybook",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Missing: storybook, typescript, accessibility.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: accessibility, storybook, typescript.",
           "weight": 12.5
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
@@ -1324,7 +1340,7 @@
           "weight": -17.81
         }
       ],
-      "summary": "Weak fit. Falls short of the 4.0-year requirement (2.0 yrs). Missing core skills: storybook, typescript, etc..",
+      "summary": "Weak fit. Falls short of the 4.0-year requirement (2.0 yrs). Missing core skills: accessibility, storybook, etc..",
       "availability": "Immediate"
     },
     {
@@ -1335,25 +1351,25 @@
         "react"
       ],
       "missingMustHaveSkills": [
+        "accessibility",
         "storybook",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Missing: storybook, typescript, accessibility.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: accessibility, storybook, typescript.",
           "weight": 12.5
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
@@ -1372,7 +1388,7 @@
           "weight": -15.94
         }
       ],
-      "summary": "Weak fit. Falls short of the 4.0-year requirement (2.0 yrs). Missing core skills: storybook, typescript, etc..",
+      "summary": "Weak fit. Falls short of the 4.0-year requirement (2.0 yrs). Missing core skills: accessibility, storybook, etc..",
       "availability": "Immediate"
     },
     {
@@ -1383,25 +1399,25 @@
         "react"
       ],
       "missingMustHaveSkills": [
+        "accessibility",
         "storybook",
-        "typescript",
-        "accessibility"
+        "typescript"
       ],
       "missingNiceToHaveSkills": [
-        "css modules",
+        "visual regression testing",
         "design tokens",
-        "monorepos",
-        "visual regression testing"
+        "css modules",
+        "monorepos"
       ],
       "reasons": [
         {
           "type": "must_have_match",
-          "evidence": "Explicitly matched 1/4 must-have skills. Missing: storybook, typescript, accessibility.",
+          "evidence": "Explicitly matched 1/4 must-have skills. Missing: accessibility, storybook, typescript.",
           "weight": 12.5
         },
         {
           "type": "nice_to_have_match",
-          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: css modules, design tokens, monorepos, visual regression testing.",
+          "evidence": "Explicitly matched 0/4 nice-to-have skills. Missing: visual regression testing, design tokens, css modules, monorepos.",
           "weight": 0.0
         },
         {
@@ -1420,12 +1436,12 @@
           "weight": -15.94
         }
       ],
-      "summary": "Weak fit. Falls short of the 4.0-year requirement (2.0 yrs). Missing core skills: storybook, typescript, etc..",
+      "summary": "Weak fit. Falls short of the 4.0-year requirement (2.0 yrs). Missing core skills: accessibility, storybook, etc..",
       "availability": "2 weeks"
     }
   ],
   "meta": {
-    "approach": "baseline-v1",
-    "generatedAt": "2026-05-05T22:06:03.726073Z"
+    "approach": "deterministic",
+    "generatedAt": "2026-05-08T10:02:48.082406Z"
   }
 }

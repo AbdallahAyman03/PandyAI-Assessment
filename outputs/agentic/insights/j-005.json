@@ -1,0 +1,65 @@
+{
+  "jobId": "j-005",
+  "approach": "agentic",
+  "topK": 2,
+  "results": [
+    {
+      "candidateId": "c-011",
+      "candidateName": "Mai Sherif",
+      "insights": {
+        "strengths": [
+          "accessibility",
+          "forms",
+          "react",
+          "typescript",
+          "react hook form",
+          "zod",
+          "3 years of relevant experience"
+        ],
+        "skillGaps": {
+          "mustHave": [],
+          "niceToHave": [
+            "error handling",
+            "vitest"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Add comprehensive error handling to existing form components.",
+          "Introduce Vitest tests for form validation logic and edge cases."
+        ]
+      }
+    },
+    {
+      "candidateId": "c-018",
+      "candidateName": "Heba Salah",
+      "insights": {
+        "strengths": [
+          "accessibility",
+          "react",
+          "typescript",
+          "5 years of frontend experience",
+          "strong UI/UX focus"
+        ],
+        "skillGaps": {
+          "mustHave": [
+            "forms"
+          ],
+          "niceToHave": [
+            "error handling",
+            "react hook form",
+            "vitest",
+            "zod"
+          ]
+        },
+        "recommendedNextSteps": [
+          "Create a prototype form using React Hook Form to gain hands‑on forms experience.",
+          "Integrate Zod schemas for validation and add error handling UI."
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "approach": "agentic-insights",
+    "generatedAt": "2026-05-08T11:42:31.058455Z"
+  }
+}

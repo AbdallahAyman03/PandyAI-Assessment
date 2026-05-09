@@ -1,0 +1,106 @@
+{
+  "jobId": "j-005",
+  "approach": "agentic",
+  "topK": 2,
+  "results": [
+    {
+      "candidateId": "c-011",
+      "candidateName": "Mai Sherif",
+      "score": 90.0,
+      "matchedSkills": [
+        "accessibility",
+        "react",
+        "typescript",
+        "forms",
+        "react hook form",
+        "zod"
+      ],
+      "missingMustHaveSkills": [],
+      "missingNiceToHaveSkills": [
+        "error handling",
+        "vitest"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Candidate possesses all four must‑have skills (accessibility, forms, react, typescript).",
+          "weight": 50.0
+        },
+        {
+          "type": "experience_base",
+          "evidence": "3 years of experience meets the minimum requirement.",
+          "weight": 25.0
+        },
+        {
+          "type": "location",
+          "evidence": "Open to work, full availability.",
+          "weight": 5.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Candidate has react hook form experience.",
+          "weight": 5.0
+        },
+        {
+          "type": "nice_to_have_match",
+          "evidence": "Candidate has zod experience.",
+          "weight": 5.0
+        }
+      ],
+      "summary": "Mai fully satisfies must‑have requirements and brings valuable form‑validation expertise, yielding a strong fit.",
+      "availability": "1 month"
+    },
+    {
+      "candidateId": "c-018",
+      "candidateName": "Heba Salah",
+      "score": 60.0,
+      "matchedSkills": [
+        "accessibility",
+        "react",
+        "typescript"
+      ],
+      "missingMustHaveSkills": [
+        "forms"
+      ],
+      "missingNiceToHaveSkills": [
+        "error handling",
+        "react hook form",
+        "vitest",
+        "zod"
+      ],
+      "reasons": [
+        {
+          "type": "must_have_match",
+          "evidence": "Candidate has accessibility, react, and typescript.",
+          "weight": 37.5
+        },
+        {
+          "type": "must_have_missing",
+          "evidence": "Candidate lacks forms experience, a core must‑have skill.",
+          "weight": -12.5
+        },
+        {
+          "type": "experience_base",
+          "evidence": "5 years of experience exceeds the minimum requirement.",
+          "weight": 25.0
+        },
+        {
+          "type": "experience_bonus",
+          "evidence": "Two years above the minimum adds the full bonus.",
+          "weight": 5.0
+        },
+        {
+          "type": "location",
+          "evidence": "Open to work, full availability.",
+          "weight": 5.0
+        }
+      ],
+      "summary": "Heba meets most must‑have skills but lacks direct forms experience, leading to an average fit.",
+      "availability": "1 month"
+    }
+  ],
+  "meta": {
+    "approach": "agentic",
+    "generatedAt": "2026-05-08T11:42:31.058455Z"
+  }
+}

@@ -2,17 +2,16 @@ import argparse
 import json
 import sys
 from datetime import datetime, timezone
-from pathlib import Path
 
 from app.utils.parser import load_jobs, load_candidates
-from app.utils.scorer import rank_candidates
+from app.utils.approaches import run_approach, VALID_APPROACHES
 from app.settings import config
 
 def main():
     parser = argparse.ArgumentParser(description="Rank candidates for a specific job.")
     parser.add_argument("--job-id", required=True, help="The ID of the job to match against (e.g., j-001)")
     parser.add_argument("--top-k", type=int, default=None, help="Number of top candidates to return")
-    parser.add_argument("--out", required=True, help="Base file path (e.g., outputs/j-001.json)")
+    parser.add_argument("--approach", choices=VALID_APPROACHES, default="deterministic", help="Analytical approach to use")
     
     args = parser.parse_args()
 
@@ -29,23 +28,17 @@ def main():
         print(f"\nError: Job ID '{args.job_id}' not found.")
         sys.exit(1)
 
-    print(f"Ranking candidates for job: '{target_job.title}'...")
-    ranked_results = rank_candidates(candidates, target_job, top_k=args.top_k)
+    print(f"Ranking candidates for job: '{target_job.title}' using {args.approach} approach...")
+    ranked_results = run_approach(args.approach, candidates, target_job, top_k=args.top_k)
 
-  
     rank_output_list = []
     insights_output_list = []
 
     for res in ranked_results:
-      
         res_copy = dict(res)
-        
-        
         insights_data = res_copy.pop("insights", None)
         
-        
         rank_output_list.append(res_copy)
-        
         
         if insights_data:
             insights_output_list.append({
@@ -58,22 +51,23 @@ def main():
 
     rank_payload = {
         "jobId": target_job.id,
+        "approach": args.approach,
         "topK": args.top_k if args.top_k is not None else len(ranked_results),
         "results": rank_output_list,
-        "meta": { "approach": "baseline-v1", "generatedAt": timestamp }
+        "meta": { "approach": args.approach, "generatedAt": timestamp }
     }
 
     insights_payload = {
         "jobId": target_job.id,
+        "approach": args.approach,
         "topK": args.top_k if args.top_k is not None else len(ranked_results),
         "results": insights_output_list,
-        "meta": { "approach": "baseline-v1-insights", "generatedAt": timestamp }
+        "meta": { "approach": f"{args.approach}-insights", "generatedAt": timestamp }
     }
 
-    output_dir = config.output_dir   
-
-    rank_dir = output_dir / "rank"
-    insights_dir = output_dir / "insights"
+    approach_dir = config.output_dir / args.approach
+    rank_dir = approach_dir / "rank"
+    insights_dir = approach_dir / "insights"
 
     rank_dir.mkdir(parents=True, exist_ok=True)
     insights_dir.mkdir(parents=True, exist_ok=True)
