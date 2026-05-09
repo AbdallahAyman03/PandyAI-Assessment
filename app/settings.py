@@ -30,7 +30,7 @@ class Settings(BaseSettings):
     llm_model: str = "openai/gpt-oss-120b"
 
     model_config = SettingsConfigDict(
-        env_file=BASE_DIR / "app" / ".env", env_file_encoding="utf-8", extra="ignore"
+        env_file=BASE_DIR / ".env", env_file_encoding="utf-8", extra="ignore"
     )
 
 
